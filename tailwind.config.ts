@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Therapeutic color system
+				'healing-sage': 'hsl(var(--healing-sage))',
+				'warm-earth': 'hsl(var(--warm-earth))',
+				'gentle-blue': 'hsl(var(--gentle-blue))',
+				'soft-gold': 'hsl(var(--soft-gold))',
+				'deep-forest': 'hsl(var(--deep-forest))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
