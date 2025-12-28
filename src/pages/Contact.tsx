@@ -14,7 +14,8 @@ const Contact = () => {
       icon: Phone,
       label: "Phone",
       value: "9873693227",
-      description: "Text or call for appointments"
+      note: "(Only text for appointments)",
+      description: "Text for appointment scheduling"
     },
     {
       icon: Mail,
@@ -76,7 +77,9 @@ const Contact = () => {
                   <CardContent className="p-6">
                     <IconComponent className="h-8 w-8 text-healing-sage mx-auto mb-4" />
                     <h3 className="font-semibold text-lg mb-2">{info.label}</h3>
-                    <p className="text-foreground font-medium mb-1">{info.value}</p>
+                    <p className="text-foreground font-medium mb-1">
+                      {info.value} {info.note && <span className="text-muted-foreground text-sm font-normal">{info.note}</span>}
+                    </p>
                     <p className="text-muted-foreground text-sm">{info.description}</p>
                   </CardContent>
                 </Card>
