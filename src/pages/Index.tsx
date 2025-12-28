@@ -1,8 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Quote, Heart, Brain, Users } from "lucide-react";
+import { Quote, Brain, Users } from "lucide-react";
 import heroImage from "@/assets/hero-therapy.jpg";
+import treeIcon from "@/assets/tree-icon.png";
 
 const Index = () => {
   return (
@@ -90,7 +91,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-none shadow-gentle hover:shadow-warm transition-all duration-300">
               <CardContent className="p-8 text-center">
-                <Heart className="h-12 w-12 text-healing-sage mx-auto mb-4" />
+                <img src={treeIcon} alt="Tree icon" className="h-12 w-12 mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Trauma-Informed Care</h3>
                 <p className="text-muted-foreground">
                   Gentle, safe approaches that honor your nervous system and healing process

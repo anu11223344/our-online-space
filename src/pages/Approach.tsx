@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Quote, Heart, Brain, Shield, Users, Lightbulb, Compass, Sparkles } from "lucide-react";
+import { Quote, Brain, Shield, Users, Lightbulb, Compass, Sparkles } from "lucide-react";
+import treeIcon from "@/assets/tree-icon.png";
 
 const Approach = () => {
   const approaches = [
@@ -29,7 +30,8 @@ const Approach = () => {
       description: "Using dreams, symbols, and astrology to reveal deeper meaning and insight."
     },
     {
-      icon: Heart,
+      icon: null,
+      isImage: true,
       title: "Mind–Body Integration & Functional Health",
       description: "Understanding how sleep, hormones, gut health, and lifestyle influence emotional wellbeing."
     },
@@ -126,7 +128,11 @@ const Approach = () => {
                   <CardHeader>
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 bg-healing-sage/10 rounded-full flex items-center justify-center flex-shrink-0">
-                        <IconComponent className="h-6 w-6 text-healing-sage" />
+                        {approach.isImage ? (
+                          <img src={treeIcon} alt="Tree icon" className="h-6 w-6" />
+                        ) : (
+                          IconComponent && <IconComponent className="h-6 w-6 text-healing-sage" />
+                        )}
                       </div>
                       <CardTitle className="text-lg leading-tight">{approach.title}</CardTitle>
                     </div>
