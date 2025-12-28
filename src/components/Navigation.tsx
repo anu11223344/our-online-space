@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Heart, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import treeIcon from "@/assets/tree-icon.png";
 
 const Navigation = () => {
   const location = useLocation();
@@ -22,7 +23,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 text-primary font-semibold text-lg">
-            <Heart className="h-6 w-6 text-healing-sage" />
+            <img src={treeIcon} alt="Tree logo" className="h-6 w-6" />
             <span>Dr. Rajat K. Thukral</span>
           </Link>
 

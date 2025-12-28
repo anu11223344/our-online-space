@@ -1,7 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Quote, GraduationCap, Award, Globe, Heart, Rainbow } from "lucide-react";
+import { Quote, GraduationCap, Award, Globe, Rainbow } from "lucide-react";
 import drRajatPhoto from "@/assets/dr-rajat-photo.jpg";
+import treeIcon from "@/assets/tree-icon.png";
 
 const About = () => {
   return (
@@ -136,7 +137,7 @@ const About = () => {
 
             <Card className="border-none shadow-gentle text-center">
               <CardContent className="p-6">
-                <Heart className="h-12 w-12 text-healing-sage mx-auto mb-4" />
+                <img src={treeIcon} alt="Tree icon" className="h-12 w-12 mx-auto mb-4" />
                 <h3 className="font-semibold text-lg mb-2">🌱 Holistic Care</h3>
                 <p className="text-muted-foreground text-sm">
                   Addressing mind, body, and spirit in your healing journey

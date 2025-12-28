@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Heart, Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
+import treeIcon from "@/assets/tree-icon.png";
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Heart className="h-6 w-6 text-soft-gold" />
+              <img src={treeIcon} alt="Tree logo" className="h-6 w-6 brightness-150" />
               <span className="font-semibold text-lg">Dr. Rajat K. Thukral</span>
             </div>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
