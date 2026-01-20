@@ -4,7 +4,7 @@ import treeIcon from "@/assets/tree-icon.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-deep-forest text-primary-foreground">
+    <footer className="bg-healing-sage text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo & Description */}
