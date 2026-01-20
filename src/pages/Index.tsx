@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Quote, Brain, Users } from "lucide-react";
-import heroImage from "@/assets/hero-therapy.jpg";
+
 import treeIcon from "@/assets/tree-icon.png";
 
 const Index = () => {
@@ -11,7 +11,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-background to-soft-gold/10">
         <div className="container mx-auto px-4 py-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-3xl mx-auto text-center">
             <div className="space-y-8">
               <div className="space-y-4">
                 <p className="text-healing-sage font-medium text-lg">
@@ -50,13 +50,6 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="relative">
-              <img 
-                src={heroImage} 
-                alt="Therapeutic environment"
-                className="rounded-lg shadow-gentle w-full h-auto"
-              />
-            </div>
           </div>
         </div>
       </section>

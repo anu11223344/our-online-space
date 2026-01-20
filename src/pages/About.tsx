@@ -1,32 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Quote, GraduationCap, Award, Globe, Rainbow } from "lucide-react";
-import drRajatPhoto from "@/assets/dr-rajat-photo.jpg";
+
 import treeIcon from "@/assets/tree-icon.png";
 
 const About = () => {
   return (
     <div className="min-h-screen py-12">
       <div className="container mx-auto px-4">
-        {/* Header with Photo */}
-        <div className="flex flex-col lg:flex-row items-center gap-12 mb-16">
-          <div className="lg:w-1/3">
-            <img 
-              src={drRajatPhoto} 
-              alt="Dr. Rajat K. Thukral" 
-              className="rounded-2xl shadow-gentle w-full max-w-sm mx-auto object-cover aspect-[3/4]"
-            />
-          </div>
-          <div className="lg:w-2/3 text-center lg:text-left">
-            <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              Meet Dr. Rajat K. Thukral
-            </h1>
-            <p className="text-xl text-muted-foreground">
-              I am an RCI-registered clinical psychologist with more than 20 years of experience 
-              in supporting adults, couples, and families across India and the U.S. My work focuses 
-              on helping people find clarity, connection, and a deeper sense of meaning.
-            </p>
-          </div>
+        {/* Header */}
+        <div className="text-center mb-16 max-w-3xl mx-auto">
+          <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+            Meet Dr. Rajat K. Thukral
+          </h1>
+          <p className="text-xl text-muted-foreground">
+            I am an RCI-registered clinical psychologist with more than 20 years of experience 
+            in supporting adults, couples, and families across India and the U.S. My work focuses 
+            on helping people find clarity, connection, and a deeper sense of meaning.
+          </p>
         </div>
 
         {/* Training Background */}
