@@ -37,7 +37,11 @@ const About = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Predoctoral Internship (APA accredited)</h3>
-                    <p className="text-muted-foreground">Postdoctoral Fellowship – Miami University Counseling Center, Ohio, USA</p>
+                    <p className="text-muted-foreground">Miami University Counseling Center, Ohio, USA</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg">Postdoctoral Fellowship</h3>
+                    <p className="text-muted-foreground">Miami University Counseling Center, Ohio, USA</p>
                   </div>
                 </div>
               </CardContent>
