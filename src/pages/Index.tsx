@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Quote, Brain, Users } from "lucide-react";
 import treeIcon from "@/assets/tree-icon.png";
-import drRajatPhoto from "@/assets/dr-rajat-photo.png";
+
 
 const Index = () => {
   return (
@@ -11,7 +11,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-background to-soft-gold/10">
         <div className="container mx-auto px-4 py-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-3xl mx-auto text-center">
             <div className="space-y-8">
               <div className="space-y-4">
                 <p className="text-healing-sage font-medium text-lg">
@@ -40,7 +40,7 @@ const Index = () => {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" className="bg-healing-sage hover:bg-deep-forest">
                   <Link to="/contact">Book a Session</Link>
                 </Button>
@@ -48,14 +48,6 @@ const Index = () => {
                   <Link to="/about">Learn More</Link>
                 </Button>
               </div>
-            </div>
-
-            <div className="relative">
-              <img 
-                src={drRajatPhoto} 
-                alt="Dr. Rajat K. Thukral"
-                className="rounded-2xl shadow-gentle w-full max-w-md mx-auto object-cover"
-              />
             </div>
           </div>
         </div>
