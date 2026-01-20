@@ -105,42 +105,6 @@ const About = () => {
           </div>
         </section>
 
-        {/* Commitment */}
-        <section className="mb-16">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">My Commitment</h2>
-          
-          <div className="grid md:grid-cols-3 gap-6">
-            <Card className="border-none shadow-gentle text-center">
-              <CardContent className="p-6">
-                <Globe className="h-12 w-12 text-healing-sage mx-auto mb-4" />
-                <h3 className="font-semibold text-lg mb-2">🌍 Culturally Attuned Therapy</h3>
-                <p className="text-muted-foreground text-sm">
-                  Honoring your cultural background and identity in every session
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-gentle text-center">
-              <CardContent className="p-6">
-                <Rainbow className="h-12 w-12 text-healing-sage mx-auto mb-4" />
-                <h3 className="font-semibold text-lg mb-2">🌈 LGBTQIA+ Affirmative Space</h3>
-                <p className="text-muted-foreground text-sm">
-                  Creating safe, inclusive environments for all identities
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-gentle text-center">
-              <CardContent className="p-6">
-                <img src={treeIcon} alt="Tree icon" className="h-12 w-12 mx-auto mb-4" />
-                <h3 className="font-semibold text-lg mb-2">🌱 Holistic Care</h3>
-                <p className="text-muted-foreground text-sm">
-                  Addressing mind, body, and spirit in your healing journey
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
 
         {/* Quote */}
         <section className="py-16">
