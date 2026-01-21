@@ -1,10 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Quote, Brain, Users } from "lucide-react";
+import { Quote, Brain, Users, ShieldCheck } from "lucide-react";
 import treeIcon from "@/assets/tree-icon.png";
 import drRajatPhoto from "@/assets/dr-rajat-photo.jpg";
-import traumaIcon from "@/assets/trauma-icon.jpg";
 
 
 const Index = () => {
@@ -93,7 +92,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="border-none shadow-gentle hover:shadow-warm transition-all duration-300">
               <CardContent className="p-8 text-center">
-                <img src={traumaIcon} alt="Trauma-informed care icon" className="h-12 w-12 mx-auto mb-4 object-contain rounded-full" />
+                <ShieldCheck className="h-12 w-12 text-healing-sage mx-auto mb-4" />
                 <h3 className="text-xl font-semibold mb-3">Trauma-Informed Care</h3>
                 <p className="text-muted-foreground">
                   Gentle, safe approaches that honor your nervous system and healing process
