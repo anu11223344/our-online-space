@@ -78,7 +78,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+          <h1 className="text-4xl lg:text-5xl font-bold text-healing-sage mb-6">
             🌱 Services Offered
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -123,7 +123,7 @@ const Services = () => {
         <section className="mb-16">
           <Card className="border-none shadow-gentle bg-muted/30">
             <CardContent className="p-8">
-              <h2 className="text-2xl font-bold text-foreground mb-6 text-center">
+              <h2 className="text-2xl font-bold text-healing-sage mb-6 text-center">
                 Session Information
               </h2>
               <div className="grid md:grid-cols-2 gap-8">

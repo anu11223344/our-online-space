@@ -59,7 +59,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6">
+          <h1 className="text-4xl lg:text-5xl font-bold text-healing-sage mb-6">
             📞 Contact & Booking
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -90,7 +90,7 @@ const Contact = () => {
 
         {/* Booking Steps */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
+          <h2 className="text-3xl font-bold text-healing-sage mb-8 text-center">
             Booking Steps
           </h2>
           <div className="max-w-4xl mx-auto">
@@ -118,7 +118,7 @@ const Contact = () => {
         <section className="mb-16">
           <Card className="border-none shadow-gentle bg-muted/30 max-w-4xl mx-auto">
             <CardContent className="p-8 text-center">
-              <h2 className="text-2xl font-bold text-foreground mb-4">
+              <h2 className="text-2xl font-bold text-healing-sage mb-4">
                 Ready to Begin?
               </h2>
               <p className="text-muted-foreground mb-6">

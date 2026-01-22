@@ -47,7 +47,7 @@ const Approach = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6 flex items-center justify-center gap-3">
+          <h1 className="text-4xl lg:text-5xl font-bold text-healing-sage mb-6 flex items-center justify-center gap-3">
             <img src={treeIcon} alt="Tree of life" className="h-12 w-12" />
             Therapy Approach
           </h1>
@@ -119,7 +119,7 @@ const Approach = () => {
 
         {/* Core Approaches */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Core Approaches</h2>
+          <h2 className="text-3xl font-bold text-healing-sage mb-8 text-center">Core Approaches</h2>
           
           <div className="grid lg:grid-cols-2 gap-6">
             {approaches.map((approach, index) => {
