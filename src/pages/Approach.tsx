@@ -48,7 +48,7 @@ const Approach = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-6 flex items-center justify-center gap-3">
-            <img src={treeIcon} alt="Tree of life" className="h-10 w-10" />
+            <img src={treeIcon} alt="Tree of life" className="h-12 w-12" />
             Therapy Approach
           </h1>
           <div className="max-w-4xl mx-auto space-y-6 text-lg text-muted-foreground">
