@@ -17,6 +17,9 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			sans: ['Alice', 'serif'],
+		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
