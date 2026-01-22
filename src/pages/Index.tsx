@@ -18,7 +18,7 @@ const Index = () => {
                 <p className="text-healing-sage font-medium text-lg">
                   Healing mind, body, spirit, and relationships— with compassion and depth.
                 </p>
-                <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-tight">
+                <h1 className="text-4xl lg:text-5xl font-bold text-healing-sage leading-tight">
                   Dr. Rajat K. Thukral
                 </h1>
                 <p className="text-xl text-muted-foreground">
@@ -81,7 +81,7 @@ const Index = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-healing-sage mb-4">
               A Space for Healing & Growth
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
