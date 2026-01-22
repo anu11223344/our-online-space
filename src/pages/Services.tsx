@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { User, Users, Star, UserCheck, BookOpen, Users2 } from "lucide-react";
+import { User, Users, Star, UserCheck, BookOpen, Users2, HandHeart } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -135,7 +135,12 @@ const Services = () => {
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-3">💻 Format</h3>
+                  <h3 className="font-semibold text-lg mb-3 flex items-center gap-2 text-healing-sage">
+                    <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-healing-sage/10">
+                      <HandHeart className="h-4 w-4" aria-hidden="true" />
+                    </span>
+                    Format
+                  </h3>
                   <p className="text-muted-foreground mb-4">
                     Choose from individual sessions, couple/family sessions, or group therapy 
                     based on your needs and preferences.
