@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Quote, Brain, Users, ShieldCheck } from "lucide-react";
 import treeIcon from "@/assets/tree-icon.png";
-import drRajatPhoto from "@/assets/dr-rajat-photo.jpg";
+import homeHeroPhoto from "@/assets/home-hero-photo.png";
 
 
 const Index = () => {
@@ -53,8 +53,8 @@ const Index = () => {
 
             <div className="relative">
               <img 
-                src={drRajatPhoto} 
-                alt="Dr. Rajat K. Thukral"
+                src={homeHeroPhoto} 
+                alt="Therapist portrait"
                 className="rounded-2xl shadow-gentle w-full max-w-md mx-auto object-cover"
               />
             </div>
