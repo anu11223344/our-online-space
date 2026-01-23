@@ -1,8 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { Quote, GraduationCap, Award, Globe, Rainbow } from "lucide-react";
-
-import treeIcon from "@/assets/tree-icon.png";
+import { Quote } from "lucide-react";
 
 const About = () => {
   return (
@@ -10,7 +7,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h1 className="text-4xl lg:text-5xl font-bold text-healing-sage mb-6">
+          <h1 className="text-[32px] lg:text-[44px] font-bold text-healing-sage mb-6">
             Meet Dr. Rajat K. Thukral
           </h1>
           <p className="text-xl text-muted-foreground">
@@ -22,10 +19,7 @@ const About = () => {
 
         {/* Training Background */}
         <section className="mb-16">
-          <div className="flex items-center gap-3 mb-8">
-            <GraduationCap className="h-8 w-8 text-healing-sage" />
-            <h2 className="text-3xl font-bold text-healing-sage">My Training Background</h2>
-          </div>
+          <h2 className="text-[26px] font-bold text-healing-sage mb-8 text-center">My Training Background</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="border-none shadow-gentle">
@@ -66,10 +60,7 @@ const About = () => {
 
         {/* Clinical Journey */}
         <section className="mb-16">
-          <div className="flex items-center gap-3 mb-8">
-            <Award className="h-8 w-8 text-healing-sage" />
-            <h2 className="text-3xl font-bold text-healing-sage">My Clinical Journey</h2>
-          </div>
+          <h2 className="text-[26px] font-bold text-healing-sage mb-8 text-center">My Clinical Journey</h2>
 
           <div className="space-y-6">
             <Card className="border-none shadow-gentle">
