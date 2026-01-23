@@ -138,55 +138,6 @@ const Contact = () => {
           </Card>
         </section>
 
-        {/* Contact Methods */}
-        <section className="mb-16">
-          <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
-            <Card className="border-none shadow-gentle">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <Mail className="h-6 w-6 text-healing-sage" />
-                  Email Contact
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Preferred method for initial contact. Please include:
-                </p>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Brief description of what brings you to therapy</li>
-                  <li>• Your preferred session format (in-person/online)</li>
-                  <li>• Any scheduling preferences or time constraints</li>
-                </ul>
-                <Button asChild className="mt-4 bg-healing-sage hover:bg-deep-forest">
-                  <a href="mailto:rajat4hope@gmail.com">Send Email</a>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-gentle">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <Phone className="h-6 w-6 text-healing-sage" />
-                  Phone Contact
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  For urgent scheduling or quick questions:
-                </p>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Text message preferred for initial contact</li>
-                  <li>• Please include your name and reason for reaching out</li>
-                  <li>• Response typically within 24-48 hours</li>
-                </ul>
-                <Button asChild className="mt-4 bg-healing-sage hover:bg-deep-forest">
-                  <a href="tel:9873693227">Call or Text</a>
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
-
         {/* Final CTA */}
         <section className="text-center">
           <Card className="border-none shadow-gentle bg-gradient-to-r from-healing-sage to-gentle-blue text-primary-foreground max-w-4xl mx-auto">
