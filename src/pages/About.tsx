@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h1 className="text-[32px] lg:text-[44px] font-bold text-healing-sage mb-6">
+          <h1 className="text-[28px] lg:text-[40px] font-bold text-healing-sage mb-6">
             Meet Dr. Rajat K. Thukral
           </h1>
           <p className="text-xl text-muted-foreground">
@@ -19,7 +19,7 @@ const About = () => {
 
         {/* Training Background */}
         <section className="mb-16">
-          <h2 className="text-[26px] font-bold text-healing-sage mb-8 text-center">My Training Background</h2>
+          <h2 className="text-[22px] font-bold text-healing-sage mb-8 text-center">My Training Background</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="border-none shadow-gentle">
@@ -60,7 +60,7 @@ const About = () => {
 
         {/* Clinical Journey */}
         <section className="mb-16">
-          <h2 className="text-[26px] font-bold text-healing-sage mb-8 text-center">My Clinical Journey</h2>
+          <h2 className="text-[22px] font-bold text-healing-sage mb-8 text-center">My Clinical Journey</h2>
 
           <div className="space-y-6">
             <Card className="border-none shadow-gentle">

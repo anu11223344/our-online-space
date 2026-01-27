@@ -78,7 +78,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-[32px] lg:text-[44px] font-bold text-healing-sage mb-6">Services Offered</h1>
+          <h1 className="text-[28px] lg:text-[40px] font-bold text-healing-sage mb-6">Services Offered</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Comprehensive therapeutic services designed to support your unique journey 
             of healing, growth, and transformation.
