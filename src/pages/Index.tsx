@@ -132,19 +132,23 @@ const Index = () => {
           <p className="text-muted-foreground mb-8 max-w-md mx-auto">
             Stay connected and join the conversation on mental health and wellness
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-[#E4405F] hover:bg-[#d62d4d] text-white">
-              <a href="https://www.instagram.com/rajatkthukral_psyd?igsh=bnhtcmU2djAyNjgw" target="_blank" rel="noopener noreferrer">
-                <Instagram className="mr-2 h-5 w-5" />
-                Instagram
-              </a>
-            </Button>
-            <Button asChild size="lg" className="bg-[#0A66C2] hover:bg-[#094d92] text-white">
-              <a href="https://www.linkedin.com/in/dr-rajat-kaur-thukral-55ab1510" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="mr-2 h-5 w-5" />
-                LinkedIn
-              </a>
-            </Button>
+          <div className="flex gap-6 justify-center">
+            <a 
+              href="https://www.instagram.com/rajatkthukral_psyd?igsh=bnhtcmU2djAyNjgw" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-healing-sage hover:text-deep-forest transition-colors"
+            >
+              <Instagram className="h-8 w-8" />
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/dr-rajat-kaur-thukral-55ab1510" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-healing-sage hover:text-deep-forest transition-colors"
+            >
+              <Linkedin className="h-8 w-8" />
+            </a>
           </div>
         </div>
       </section>
