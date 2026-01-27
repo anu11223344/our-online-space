@@ -13,7 +13,7 @@ const Index = () => {
       <section className="relative overflow-hidden bg-gradient-to-br from-background to-soft-gold/10">
         <div className="container mx-auto px-4 py-20">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8 text-center lg:text-center">
+            <div className="space-y-8">
               <div className="space-y-4">
                 <p className="text-healing-sage font-medium text-lg">
                   Healing mind, body, spirit, and relationships— with compassion and depth.
@@ -26,7 +26,7 @@ const Index = () => {
                 </p>
               </div>
               
-              <div className="prose text-muted-foreground max-w-none text-center mx-auto">
+              <div className="prose text-muted-foreground max-w-none">
                 <p>
                   I'm Dr. Rajat K. Thukral, a registered clinical psychologist offering trauma-informed, 
                   holistic therapy for individuals, groups, couples, and families. My integrative approach 
@@ -41,7 +41,7 @@ const Index = () => {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-healing-sage hover:bg-deep-forest">
                   <Link to="/contact">Book a Session</Link>
                 </Button>
