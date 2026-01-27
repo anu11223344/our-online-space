@@ -31,7 +31,7 @@ const Index = () => {
                   I'm Dr. Rajat K. Thukral, a registered clinical psychologist offering trauma-informed, 
                   holistic therapy for individuals, groups, couples, and families. My integrative approach 
                   combines evidence based psychotherapy with depth oriented approaches— bridging Cognitive 
-                  Behavioural Therapy, Psychodynamic Psychotherapy, Internal Family Systems (IFS), 
+                  Behavioural Therapy, Psychodynamic Psychotherapy, Internal Family Systems (IFS) Informed, 
                   Polyvagal Theory, mind-body practices, and Jungian archetypes.
                 </p>
                 <p>
