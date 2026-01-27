@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Quote, Brain, Users, ShieldCheck } from "lucide-react";
+import { Quote, Brain, Users, ShieldCheck, Instagram, Linkedin } from "lucide-react";
 import treeIcon from "@/assets/tree-icon.png";
 import homeHeroPhoto from "@/assets/home-hero-photo-2.png";
 
@@ -119,6 +119,32 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Follow Me Section */}
+      <section className="py-16 bg-muted/30">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-[26px] lg:text-[32px] font-bold text-healing-sage mb-4">
+            Follow Me
+          </h2>
+          <p className="text-muted-foreground mb-8 max-w-md mx-auto">
+            Stay connected and join the conversation on mental health and wellness
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg" className="bg-[#E4405F] hover:bg-[#d62d4d] text-white">
+              <a href="https://www.instagram.com/rajatkthukral_psyd?igsh=bnhtcmU2djAyNjgw" target="_blank" rel="noopener noreferrer">
+                <Instagram className="mr-2 h-5 w-5" />
+                Instagram
+              </a>
+            </Button>
+            <Button asChild size="lg" className="bg-[#0A66C2] hover:bg-[#094d92] text-white">
+              <a href="https://www.linkedin.com/in/dr-rajat-kaur-thukral-55ab1510" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="mr-2 h-5 w-5" />
+                LinkedIn
+              </a>
+            </Button>
           </div>
         </div>
       </section>
