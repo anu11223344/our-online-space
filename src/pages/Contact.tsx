@@ -58,7 +58,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-[32px] lg:text-[44px] font-bold text-healing-sage mb-6">Contact & Booking</h1>
+          <h1 className="text-[28px] lg:text-[40px] font-bold text-healing-sage mb-6">Contact & Booking</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Let's Connect — Your healing journey starts here.
           </p>
@@ -85,7 +85,7 @@ const Contact = () => {
 
         {/* Booking Steps */}
         <section className="mb-16">
-          <h2 className="text-[26px] font-bold text-healing-sage mb-8 text-center">
+          <h2 className="text-[22px] font-bold text-healing-sage mb-8 text-center">
             Booking Steps
           </h2>
           <div className="max-w-4xl mx-auto">

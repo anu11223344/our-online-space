@@ -18,7 +18,7 @@ const Index = () => {
                 <p className="text-healing-sage font-medium text-lg">
                   Healing mind, body, spirit, and relationships— with compassion and depth.
                 </p>
-                <h1 className="text-[32px] lg:text-[44px] font-bold text-healing-sage leading-tight">
+                <h1 className="text-[28px] lg:text-[40px] font-bold text-healing-sage leading-tight">
                   Dr. Rajat K. Thukral
                 </h1>
                 <p className="text-xl text-muted-foreground">
@@ -81,7 +81,7 @@ const Index = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-[26px] lg:text-[32px] font-bold text-healing-sage mb-4">
+            <h2 className="text-[22px] lg:text-[28px] font-bold text-healing-sage mb-4">
               A Space for Healing & Growth
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -126,7 +126,7 @@ const Index = () => {
       {/* Follow Me Section */}
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-[26px] lg:text-[32px] font-bold text-healing-sage mb-4">
+          <h2 className="text-[22px] lg:text-[28px] font-bold text-healing-sage mb-4">
             Follow Me
           </h2>
           <p className="text-muted-foreground mb-8 max-w-md mx-auto">
@@ -156,7 +156,7 @@ const Index = () => {
       {/* Call to Action */}
       <section className="py-20 bg-gradient-to-r from-healing-sage to-gentle-blue text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-[26px] lg:text-[32px] font-bold mb-6">
+          <h2 className="text-[22px] lg:text-[28px] font-bold mb-6">
             Ready to Begin Your Healing Journey?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
