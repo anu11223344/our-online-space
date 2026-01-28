@@ -151,7 +151,7 @@ const Contact = () => {
                   <a href="mailto:rajat4hope@gmail.com">Email Me Today</a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-                  <a href="tel:9873693227">Call or Text</a>
+                  <a href="sms:9873693227">Text Me</a>
                 </Button>
               </div>
             </CardContent>
