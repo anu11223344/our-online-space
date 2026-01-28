@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Quote, Brain, Users, ShieldCheck, Instagram, Linkedin } from "lucide-react";
 import treeIcon from "@/assets/tree-icon.png";
-import homeHeroPhoto from "@/assets/home-hero-photo-2.png";
+import homeHeroPhoto from "@/assets/home-hero-photo-3.jpg";
 
 
 const Index = () => {
