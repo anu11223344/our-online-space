@@ -37,7 +37,7 @@ const Footer = () => {
               <Link to="/contact" className="block text-primary-foreground/70 hover:text-soft-gold transition-colors text-sm">
                 Contact
               </Link>
-              <Link to="/contact" className="block text-soft-gold hover:text-primary-foreground transition-colors text-sm font-medium">
+              <Link to="/contact" className="block text-primary-foreground/70 hover:text-primary-foreground transition-colors text-sm font-medium">
                 Book a Session
               </Link>
             </div>
