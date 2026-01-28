@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img src={treeIcon} alt="Tree logo" className="h-10 w-10 object-contain shrink-0 brightness-150" />
+              <img src={treeIcon} alt="Tree logo" className="h-8 w-8 object-contain shrink-0" style={{ filter: 'brightness(0) saturate(100%) invert(63%) sepia(15%) saturate(600%) hue-rotate(109deg) brightness(95%) contrast(88%)' }} />
               <span className="font-semibold text-lg">Dr. Rajat K. Thukral</span>
             </div>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
