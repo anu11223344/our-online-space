@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import treeIcon from "@/assets/tree-icon.png";
+import logoAsset from "@/assets/inner-horizon-logo.png.asset.json";
 
 const Navigation = () => {
   const location = useLocation();
