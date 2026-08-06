@@ -19,23 +19,23 @@ const Index = () => {
                   Healing mind, body, spirit, and relationships— with compassion and depth.
                 </p>
                 <h1 className="text-[28px] lg:text-[40px] font-bold text-healing-sage leading-tight">
-                  Dr. Rajat K. Thukral
+                  Inner Horizon
                 </h1>
                 <p className="text-xl text-muted-foreground">
-                  Clinical Psychologist | Marriage & Family Therapist
+                  Founder — Dr. Rajat K. Thukral
                 </p>
               </div>
               
               <div className="prose text-muted-foreground max-w-none">
                 <p>
-                  I'm Dr. Rajat K. Thukral, a registered clinical psychologist offering trauma-informed, 
-                  holistic therapy for individuals, groups, couples, and families. My integrative approach 
-                  combines evidence based psychotherapy with depth oriented approaches.
-                </p>
-                <p>
                   Whether you're feeling overwhelmed by life's demands, stuck in repeating patterns, 
                   or simply seeking deeper understanding and connection, therapy can be a space of 
                   profound transformation and healing.
+                </p>
+                <p>
+                  I'm Dr. Rajat K. Thukral, a registered clinical psychologist offering trauma-informed, 
+                  holistic therapy for individuals, groups, couples, and families. My integrative approach 
+                  combines evidence based psychotherapy with depth oriented approaches.
                 </p>
               </div>
 
