@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import treeIcon from "@/assets/tree-icon.png";
+import logoAsset from "@/assets/inner-horizon-logo.png.asset.json";
 
 const Footer = () => {
   return (
@@ -10,8 +10,8 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img src={treeIcon} alt="Tree logo" className="h-8 w-8 object-contain shrink-0" style={{ filter: 'brightness(0) saturate(100%) invert(63%) sepia(15%) saturate(600%) hue-rotate(109deg) brightness(95%) contrast(88%)' }} />
-              <span className="font-semibold text-lg">Dr. Rajat K. Thukral</span>
+              <img src={logoAsset.url} alt="Inner Horizon logo" className="h-8 w-8 object-contain shrink-0" />
+              <span className="font-semibold text-lg">Inner Horizon</span>
             </div>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
               Clinical Psychologist | Marriage & Family Therapist
