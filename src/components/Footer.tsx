@@ -13,7 +13,7 @@ const Footer = () => {
               <img src={logoAsset.url} alt="Inner Horizon Mental Wellness" className="h-12 w-auto object-contain shrink-0" />
             </div>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
-              Clinical Psychologist | Marriage & Family Therapist
+              Inner Horizon | Mental Health Services
             </p>
             <p className="text-primary-foreground/70 text-sm max-w-md">
               Healing mind, body, spirit, and relationships— with compassion and depth.
