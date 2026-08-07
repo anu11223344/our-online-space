@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logoAsset from "@/assets/inner-horizon-logo.png.asset.json";
+import logoAsset from "@/assets/inner-horizon-full-logo.png.asset.json";
 
 const Navigation = () => {
   const location = useLocation();
@@ -21,9 +21,8 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 text-primary font-semibold text-lg">
-            <img src={logoAsset.url} alt="Inner Horizon logo" className="h-10 w-10 object-contain shrink-0" />
-            <span>Inner Horizon</span>
+          <Link to="/" className="flex items-center text-primary font-semibold text-lg">
+            <img src={logoAsset.url} alt="Inner Horizon Mental Wellness" className="h-10 w-auto object-contain shrink-0" />
           </Link>
 
           {/* Desktop Navigation */}
