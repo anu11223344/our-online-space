@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <img src={logoAsset.url} alt="Inner Horizon Mental Wellness" className="h-10 w-auto object-contain shrink-0" />
+              <img src={logoAsset.url} alt="Inner Horizon Mental Wellness" className="h-12 w-auto object-contain shrink-0" />
             </div>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
               Clinical Psychologist | Marriage & Family Therapist
