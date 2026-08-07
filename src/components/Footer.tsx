@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import logoAsset from "@/assets/inner-horizon-logo.png.asset.json";
+import logoAsset from "@/assets/inner-horizon-full-logo.png.asset.json";
 
 const Footer = () => {
   return (
@@ -9,9 +9,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <img src={logoAsset.url} alt="Inner Horizon logo" className="h-8 w-8 object-contain shrink-0" />
-              <span className="font-semibold text-lg">Inner Horizon</span>
+            <div className="flex items-center mb-4">
+              <img src={logoAsset.url} alt="Inner Horizon Mental Wellness" className="h-12 w-auto object-contain shrink-0" />
             </div>
             <p className="text-primary-foreground/80 mb-4 max-w-md">
               Clinical Psychologist | Marriage & Family Therapist
