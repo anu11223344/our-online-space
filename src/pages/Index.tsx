@@ -54,7 +54,7 @@ const Index = () => {
 
             <div className="relative">
               <img 
-                src={homeHeroPhoto} 
+                src={homeHeroPhoto.url} 
                 alt="Therapist portrait"
                 className="rounded-2xl shadow-gentle w-full max-w-md mx-auto object-cover"
               />
