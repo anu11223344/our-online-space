@@ -22,6 +22,9 @@ const Index = () => {
                   Inner Horizon
                 </h1>
                 <p className="text-xl text-muted-foreground">
+                  Mental Health Services
+                </p>
+                <p className="text-xl text-muted-foreground">
                   Founder — Dr. Rajat K. Thukral
                 </p>
               </div>
