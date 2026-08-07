@@ -28,14 +28,14 @@ const Index = () => {
               
               <div className="prose text-muted-foreground max-w-none">
                 <p>
-                  Whether you're feeling overwhelmed by life's demands, stuck in repeating patterns, 
-                  or simply seeking deeper understanding and connection, therapy can be a space of 
-                  profound transformation and healing.
-                </p>
-                <p>
                   I'm Dr. Rajat K. Thukral, a registered clinical psychologist offering trauma-informed, 
                   holistic therapy for individuals, groups, couples, and families. My integrative approach 
                   combines evidence based psychotherapy with depth oriented approaches.
+                </p>
+                <p>
+                  Whether you're feeling overwhelmed by life's demands, stuck in repeating patterns, 
+                  or simply seeking deeper understanding and connection, therapy can be a space of 
+                  profound transformation and healing.
                 </p>
               </div>
 
