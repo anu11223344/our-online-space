@@ -29,7 +29,7 @@ const Index = () => {
                 </p>
               </div>
               
-              <div className="prose text-muted-foreground max-w-none">
+              <div className="prose text-muted-foreground max-w-none space-y-6">
                 <p>
                   I'm Dr. Rajat K. Thukral, a registered clinical psychologist offering trauma-informed, 
                   holistic therapy for individuals, groups, couples, and families. My integrative approach 
