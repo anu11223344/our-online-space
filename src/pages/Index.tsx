@@ -2,66 +2,53 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Quote, Brain, Users, ShieldCheck, Instagram, Linkedin } from "lucide-react";
-import treeIcon from "@/assets/tree-icon.png";
-import homeHeroPhoto from "@/assets/home-hero-photo.jpg.asset.json";
-
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-background to-soft-gold/10">
-        <div className="container mx-auto px-4 py-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="space-y-8">
-              <div className="space-y-4">
-                <p className="text-healing-sage font-medium text-lg">
-                  Healing mind, body, spirit, and relationships— with compassion and depth.
-                </p>
-                <h1 className="text-[28px] lg:text-[40px] font-bold text-healing-sage leading-tight">
-                  Inner Horizon
-                </h1>
-                <p className="text-xl text-muted-foreground">
-                  Mental Health Services
-                </p>
-                <p className="text-xl text-muted-foreground">
-                  Founder — Dr. Rajat K. Thukral
-                </p>
-              </div>
-              
-              <div className="prose text-muted-foreground max-w-none space-y-6">
-                <p>
-                  I'm Dr. Rajat K. Thukral, a registered clinical psychologist offering trauma-informed, 
-                  holistic therapy for individuals, groups, couples, and families. My integrative approach 
-                  combines evidence based psychotherapy with depth oriented approaches.
-                </p>
-                <p>
-                  Whether you're feeling overwhelmed by life's demands, stuck in repeating patterns, 
-                  or simply seeking deeper understanding and connection, therapy can be a space of 
-                  profound transformation and healing.
-                </p>
-              </div>
+        <div className="mx-auto w-full max-w-[1200px] px-4 py-14 lg:py-20">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className="space-y-6 order-1">
+              <p className="text-healing-sage font-medium tracking-wide uppercase text-sm">
+                Trauma-informed, holistic psychotherapy
+              </p>
+              <h1 className="text-[30px] lg:text-[44px] font-bold text-healing-sage leading-tight">
+                Therapy for deeper understanding, lasting change, and more connected relationships
+              </h1>
+              <p className="text-lg text-muted-foreground">
+                I'm Dr. Rajat K. Thukral, a registered clinical psychologist offering trauma-informed,
+                holistic therapy for individuals, groups, couples, and families. My integrative approach
+                combines evidence based psychotherapy with depth oriented approaches.
+              </p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-wrap items-center gap-6">
                 <Button asChild size="lg" className="bg-healing-sage hover:bg-deep-forest">
-                  <Link to="/contact">Book a Session</Link>
+                  <Link to="/contact">Book a consultation</Link>
                 </Button>
-                <Button asChild variant="outline" size="lg">
-                  <Link to="/about">Learn More</Link>
-                </Button>
+                <Link
+                  to="/services"
+                  className="text-healing-sage underline underline-offset-4 hover:text-deep-forest transition-colors rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                >
+                  Explore services
+                </Link>
               </div>
             </div>
 
-            <div className="relative">
-              <img 
-                src={homeHeroPhoto.url} 
-                alt="Therapist portrait"
-                className="rounded-2xl shadow-gentle w-full max-w-md mx-auto object-cover"
+            <div className="order-2">
+              <img
+                src="/dr-rajat-thukral.jpg"
+                alt="Dr. Rajat K. Thukral, clinical psychologist"
+                width={976}
+                height={1220}
+                className="aspect-[4/5] w-full max-w-md mx-auto rounded-2xl object-cover object-top shadow-gentle"
               />
             </div>
           </div>
         </div>
       </section>
+
 
       {/* Quote Section */}
       <section className="py-16 bg-muted/30">
