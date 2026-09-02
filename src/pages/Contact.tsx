@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 
 const Contact = () => {
-  const contactInfo = [
+  const contactInfo: { icon: typeof MapPin; label: string; value: string; description: string; href?: string }[] = [
     {
       icon: MapPin,
       label: "Office Location",
@@ -13,13 +13,15 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "9873693227",
-      description: "Text for appointment scheduling"
+      value: "+91 92055 00670",
+      href: "tel:+919205500670",
+      description: "Call or text for appointment scheduling"
     },
     {
       icon: Mail,
       label: "Email",
-      value: "rajat4hope@gmail.com",
+      value: "innerhorizoncare@gmail.com",
+      href: "mailto:innerhorizoncare@gmail.com",
       description: "Preferred for initial contact"
     },
     {
@@ -74,7 +76,15 @@ const Contact = () => {
                   <CardContent className="p-6">
                     <IconComponent className="h-8 w-8 text-healing-sage mx-auto mb-4" />
                     <h3 className="font-semibold text-lg mb-2">{info.label}</h3>
-                    <p className="text-foreground font-medium mb-1">{info.value}</p>
+                    <p className="text-foreground font-medium mb-1 break-words">
+                      {info.href ? (
+                        <a href={info.href} className="hover:text-healing-sage transition-colors underline underline-offset-4">
+                          {info.value}
+                        </a>
+                      ) : (
+                        info.value
+                      )}
+                    </p>
                     <p className="text-muted-foreground text-sm">{info.description}</p>
                   </CardContent>
                 </Card>
@@ -148,10 +158,10 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-                  <a href="mailto:rajat4hope@gmail.com">Email Me Today</a>
+                  <a href="mailto:innerhorizoncare@gmail.com">Email Me Today</a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-                  <a href="sms:9873693227">Text Me</a>
+                  <a href="tel:+919205500670">Call Me</a>
                 </Button>
               </div>
             </CardContent>
