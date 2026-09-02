@@ -122,7 +122,7 @@ const Index = () => {
           </p>
           <div className="flex gap-6 justify-center">
             <a 
-              href="https://www.instagram.com/rajatkthukral_psyd?igsh=bnhtcmU2djAyNjgw" 
+              href="https://www.instagram.com/innerhorizon.in" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-healing-sage hover:text-deep-forest transition-colors"
