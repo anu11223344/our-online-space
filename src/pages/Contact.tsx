@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 
 const Contact = () => {
-  const contactInfo = [
+  const contactInfo: { icon: typeof MapPin; label: string; value: string; description: string; href?: string }[] = [
     {
       icon: MapPin,
       label: "Office Location",
@@ -14,12 +14,14 @@ const Contact = () => {
       icon: Phone,
       label: "Phone",
       value: "+91 92055 00670",
+      href: "tel:+919205500670",
       description: "Call or text for appointment scheduling"
     },
     {
       icon: Mail,
       label: "Email",
       value: "innerhorizoncare@gmail.com",
+      href: "mailto:innerhorizoncare@gmail.com",
       description: "Preferred for initial contact"
     },
     {
@@ -74,7 +76,15 @@ const Contact = () => {
                   <CardContent className="p-6">
                     <IconComponent className="h-8 w-8 text-healing-sage mx-auto mb-4" />
                     <h3 className="font-semibold text-lg mb-2">{info.label}</h3>
-                    <p className="text-foreground font-medium mb-1">{info.value}</p>
+                    <p className="text-foreground font-medium mb-1 break-words">
+                      {info.href ? (
+                        <a href={info.href} className="hover:text-healing-sage transition-colors underline underline-offset-4">
+                          {info.value}
+                        </a>
+                      ) : (
+                        info.value
+                      )}
+                    </p>
                     <p className="text-muted-foreground text-sm">{info.description}</p>
                   </CardContent>
                 </Card>
