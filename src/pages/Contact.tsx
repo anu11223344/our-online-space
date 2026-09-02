@@ -13,13 +13,13 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "9873693227",
-      description: "Text for appointment scheduling"
+      value: "+91 92055 00670",
+      description: "Call or text for appointment scheduling"
     },
     {
       icon: Mail,
       label: "Email",
-      value: "rajat4hope@gmail.com",
+      value: "innerhorizoncare@gmail.com",
       description: "Preferred for initial contact"
     },
     {
@@ -148,10 +148,10 @@ const Contact = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-                  <a href="mailto:rajat4hope@gmail.com">Email Me Today</a>
+                  <a href="mailto:innerhorizoncare@gmail.com">Email Me Today</a>
                 </Button>
                 <Button asChild size="lg" variant="outline" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10">
-                  <a href="sms:9873693227">Text Me</a>
+                  <a href="tel:+919205500670">Call Me</a>
                 </Button>
               </div>
             </CardContent>
