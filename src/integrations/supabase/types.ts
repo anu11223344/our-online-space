@@ -14,7 +14,45 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      consultation_enquiries: {
+        Row: {
+          consent_given: boolean
+          contact: string
+          created_at: string
+          id: string
+          message: string | null
+          name: string
+          preferred_contact_method: string
+          service_interest: string
+          session_preference: string
+          updated_at: string
+        }
+        Insert: {
+          consent_given: boolean
+          contact: string
+          created_at?: string
+          id?: string
+          message?: string | null
+          name: string
+          preferred_contact_method: string
+          service_interest: string
+          session_preference: string
+          updated_at?: string
+        }
+        Update: {
+          consent_given?: boolean
+          contact?: string
+          created_at?: string
+          id?: string
+          message?: string | null
+          name?: string
+          preferred_contact_method?: string
+          service_interest?: string
+          session_preference?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
