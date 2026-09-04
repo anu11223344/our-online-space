@@ -18,7 +18,8 @@ export default {
 			}
 		},
 		fontFamily: {
-			sans: ['Alice', 'serif'],
+			sans: ['Inter', 'system-ui', 'sans-serif'],
+			display: ['Alice', 'serif'],
 		},
 		extend: {
 			colors: {

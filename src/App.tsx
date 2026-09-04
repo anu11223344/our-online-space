@@ -9,6 +9,7 @@ import Approach from "./pages/Approach";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import { Accessibility, CrisisSupport, Privacy, Terms } from "./pages/Legal";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
@@ -27,6 +28,10 @@ const App = () => (
           <Route path="/approach" element={<Approach />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/accessibility" element={<Accessibility />} />
+          <Route path="/crisis-support" element={<CrisisSupport />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

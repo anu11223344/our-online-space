@@ -15,7 +15,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="bg-card/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
+    <nav className="sticky top-0 z-50 border-b border-border bg-card/95 font-sans backdrop-blur-sm" aria-label="Main navigation">
       <div className="mx-auto w-full max-w-[1200px] px-4">
         <div className="flex items-center justify-between h-16 md:h-[72px]">
           {/* Logo */}
@@ -40,14 +40,14 @@ const Navigation = () => {
                 key={item.path}
                 to={item.path}
                 aria-current={location.pathname === item.path ? "page" : undefined}
-                className={`whitespace-nowrap text-sm font-medium transition-colors hover:text-primary rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ${
-                  location.pathname === item.path ? "text-primary" : "text-muted-foreground"
+                className={`focus-ring whitespace-nowrap text-sm font-medium transition-colors hover:text-primary ${
+                  location.pathname === item.path ? "text-primary" : "text-foreground/75"
                 }`}
               >
                 {item.label}
               </Link>
             ))}
-            <Button asChild className="bg-healing-sage hover:bg-deep-forest whitespace-nowrap">
+            <Button asChild className="whitespace-nowrap">
               <Link to="/contact">Book a consultation</Link>
             </Button>
           </div>
@@ -75,15 +75,15 @@ const Navigation = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`text-sm font-medium py-2 transition-colors hover:text-primary rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
-                    location.pathname === item.path ? "text-primary" : "text-muted-foreground"
+                   className={`focus-ring py-2 text-sm font-medium transition-colors hover:text-primary ${
+                     location.pathname === item.path ? "text-primary" : "text-foreground/75"
                   }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
                 </Link>
               ))}
-              <Button asChild className="bg-healing-sage hover:bg-deep-forest mt-4 w-full">
+               <Button asChild className="mt-4 w-full">
                 <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Book a consultation</Link>
               </Button>
             </div>
