@@ -44,6 +44,11 @@ Deno.serve(async (request) => {
       !allowedPreferences.has(sessionPreference) || message.length > 1000 || body.consentGiven !== true) {
       return new Response(JSON.stringify({ error: "Please check the form and try again." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
+    const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contact);
+    const validPhone = /^\+?[0-9 ()-]{7,20}$/.test(contact);
+    if ((preferredContactMethod === "email" && !validEmail) || (preferredContactMethod === "phone" && !validPhone)) {
+      return new Response(JSON.stringify({ error: "Please enter valid contact information." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
+    }
 
     const supabaseUrl = Deno.env.get("SUPABASE_URL");
     const serviceRoleKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");

@@ -3,14 +3,14 @@ import { Quote } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="min-h-screen py-12">
-      <div className="container mx-auto px-4">
+    <main className="min-h-screen bg-background">
+      <div className="site-container page-section">
         {/* Header */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h1 className="text-[28px] lg:text-[40px] font-bold text-healing-sage mb-6">
+          <h1 className="page-title mb-6">
             Meet Dr. Rajat K. Thukral
           </h1>
-          <p className="text-xl text-muted-foreground">
+          <p className="measure mx-auto text-lg text-foreground/80">
             I am an RCI-registered clinical psychologist with more than 20 years of experience 
             in supporting adults, couples, and families across India and the U.S. My work focuses 
             on helping people find clarity, connection, and a deeper sense of meaning.
@@ -18,11 +18,11 @@ const About = () => {
         </div>
 
         {/* Training Background */}
-        <section className="mb-16">
-          <h2 className="text-[22px] font-bold text-healing-sage mb-8 text-center">My Training Background</h2>
+        <section className="mb-16 md:mb-24">
+          <h2 className="section-title mb-8 text-center">My Training Background</h2>
           
           <div className="grid md:grid-cols-2 gap-6">
-            <Card className="border-none shadow-gentle">
+            <Card className="interactive-card">
               <CardContent className="p-6">
                 <div className="space-y-4">
                   <div>
@@ -41,7 +41,7 @@ const About = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-none shadow-gentle">
+            <Card className="interactive-card">
               <CardContent className="p-6">
                 <div className="space-y-4">
                   <div>
@@ -58,12 +58,12 @@ const About = () => {
           </div>
         </section>
 
-        {/* Clinical Journey */}
+        {/* Clinical experience */}
         <section className="mb-16">
-          <h2 className="text-[22px] font-bold text-healing-sage mb-8 text-center">My Clinical Journey</h2>
+          <h2 className="section-title mb-8 text-center">Clinical experience</h2>
 
           <div className="space-y-6">
-            <Card className="border-none shadow-gentle">
+            <Card className="interactive-card">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-lg mb-3">Clinical Experience</h3>
                 <p className="text-muted-foreground">
@@ -74,7 +74,7 @@ const About = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-none shadow-gentle">
+            <Card className="interactive-card">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-lg mb-3">Training & Workshops</h3>
                 <p className="text-muted-foreground">
@@ -84,7 +84,7 @@ const About = () => {
               </CardContent>
             </Card>
 
-            <Card className="border-none shadow-gentle">
+            <Card className="interactive-card">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-lg mb-3">Supervision & Mentorship</h3>
                 <p className="text-muted-foreground">
@@ -110,7 +110,7 @@ const About = () => {
           </Card>
         </section>
       </div>
-    </div>
+    </main>
   );
 };
 

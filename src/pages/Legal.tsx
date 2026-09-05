@@ -22,7 +22,7 @@ export const LegalPage = ({ title, intro, children }: LegalPageProps) => (
 export const Privacy = () => (
   <LegalPage title="Privacy Policy" intro="Inner Horizon collects only the information you choose to share when making a consultation enquiry.">
     <section><h2 className="section-title-sm mb-3">Information collected</h2><p>Name, contact details, contact preference, service interest, session preference, and an optional brief message are used to respond to your enquiry.</p></section>
-    <section><h2 className="section-title-sm mb-3">How it is handled</h2><p>Enquiries are stored securely and are not used for marketing. Please do not include diagnosis, crisis details, or clinical history in the message field.</p></section>
+    <section><h2 className="section-title-sm mb-3">How it is handled</h2><p>Enquiries are stored securely so Dr. Rajat K. Thukral can respond. Please do not include diagnosis, crisis details, or clinical history in the message field.</p></section>
     <section><h2 className="section-title-sm mb-3">Questions</h2><p>Email <a className="text-primary underline underline-offset-4" href="mailto:innerhorizoncare@gmail.com">innerhorizoncare@gmail.com</a> with a privacy question or request.</p></section>
   </LegalPage>
 );
