@@ -30,7 +30,7 @@ const About = () => {
                     <p className="text-muted-foreground">California Institute of Integral Studies, San Francisco, USA</p>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">Predoctoral Internship (APA accredited)</h3>
+                    <h3 className="text-lg">Predoctoral Internship</h3>
                     <p className="text-muted-foreground">Miami University Counseling Center, Ohio, USA</p>
                   </div>
                   <div>

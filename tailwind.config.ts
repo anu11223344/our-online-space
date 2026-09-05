@@ -59,7 +59,6 @@ export default {
 				// Therapeutic color system
 				'healing-sage': 'hsl(var(--healing-sage))',
 				'warm-earth': 'hsl(var(--warm-earth))',
-				'gentle-blue': 'hsl(var(--gentle-blue))',
 				'soft-gold': 'hsl(var(--soft-gold))',
 				'deep-forest': 'hsl(var(--deep-forest))',
 				sidebar: {
@@ -77,6 +76,10 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			boxShadow: {
+				gentle: 'var(--shadow-gentle)',
+				warm: 'var(--shadow-warm)',
 			},
 			keyframes: {
 				'accordion-down': {
