@@ -74,14 +74,13 @@ const Services = () => {
   ];
 
   return (
-    <div className="min-h-screen py-12">
-      <div className="container mx-auto px-4">
+    <main className="min-h-screen bg-background">
+      <div className="site-container page-section">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-[28px] lg:text-[40px] font-bold text-healing-sage mb-6">Services Offered</h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive therapeutic services designed to support your unique journey 
-            of healing, growth, and transformation.
+          <h1 className="page-title mb-6">Services</h1>
+          <p className="measure mx-auto text-lg text-foreground/80">
+            Therapy and consultation for individuals, couples, families, and groups, offered online and in person.
           </p>
         </div>
 
@@ -90,22 +89,22 @@ const Services = () => {
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <Card key={index} className="border-none shadow-gentle hover:shadow-warm transition-all duration-300">
+               <Card key={index} className="interactive-card" tabIndex={0}>
                 <CardHeader>
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-healing-sage/10 rounded-full flex items-center justify-center flex-shrink-0">
-                      <IconComponent className="h-6 w-6 text-healing-sage" />
+                    <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-muted">
+                      <IconComponent className="h-5 w-5 text-primary" aria-hidden="true" />
                     </div>
                     <div>
                       <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
-                      <p className="text-muted-foreground">{service.description}</p>
+                      <p className="text-foreground/75">{service.description}</p>
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="pt-0">
                   <ul className="space-y-2 ml-16">
                     {service.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="text-sm text-muted-foreground flex items-start gap-2">
+                      <li key={featureIndex} className="flex items-start gap-2 text-sm text-foreground/75">
                         <span className="w-1.5 h-1.5 bg-healing-sage rounded-full mt-2 flex-shrink-0"></span>
                         {feature}
                       </li>
@@ -119,27 +118,27 @@ const Services = () => {
 
         {/* Session Information */}
         <section className="mb-16">
-          <Card className="border-none shadow-gentle bg-muted/30">
+          <Card className="border border-border bg-muted shadow-none">
             <CardContent className="p-8">
-              <h2 className="text-2xl font-bold text-healing-sage mb-6 text-center">
+              <h2 className="section-title-sm mb-6 text-center">
                 Session Information
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="font-semibold text-lg mb-3">📍 Location</h3>
-                  <p className="text-muted-foreground mb-4">
+                  <h3 className="mb-3 text-lg">Location</h3>
+                  <p className="mb-4 text-foreground/75">
                     Sessions are offered both in-person in South Delhi (Greater Kailash-II) 
                     and online for your convenience.
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg mb-3 flex items-center gap-2 text-healing-sage">
+                  <h3 className="mb-3 flex items-center gap-2 text-lg text-primary">
                     <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-healing-sage/10">
                       <HandHeart className="h-4 w-4" aria-hidden="true" />
                     </span>
                     Format
                   </h3>
-                  <p className="text-muted-foreground mb-4">
+                  <p className="mb-4 text-foreground/75">
                     Choose from individual sessions, couple/family sessions, or group therapy 
                     based on your needs and preferences.
                   </p>
@@ -150,23 +149,13 @@ const Services = () => {
         </section>
 
         {/* Call to Action */}
-        <section className="text-center">
-          <Card className="border-none shadow-gentle bg-gradient-to-r from-healing-sage to-gentle-blue text-primary-foreground">
-            <CardContent className="p-12">
-              <h2 className="text-3xl font-bold mb-4">
-                Ready to Start Your Healing Journey?
-              </h2>
-              <p className="text-xl mb-8 opacity-90">
-                Every journey begins with a single step. Let's take that step together.
-              </p>
-              <Button asChild size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-                <Link to="/contact">Book Your First Session</Link>
-              </Button>
-            </CardContent>
-          </Card>
+        <section className="bg-primary px-6 py-12 text-center text-primary-foreground">
+          <h2 className="section-title mb-4 text-primary-foreground">Arrange a first conversation</h2>
+          <p className="mx-auto mb-8 max-w-2xl text-lg text-primary-foreground/90">Ask about availability, fees, and whether a particular service may be a suitable fit.</p>
+          <Button asChild size="lg" variant="secondary"><Link to="/contact">Book a consultation</Link></Button>
         </section>
       </div>
-    </div>
+    </main>
   );
 };
 
