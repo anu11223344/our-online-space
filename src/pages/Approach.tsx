@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { SEO } from "@/components/SEO";
 import { Quote, Brain, Shield, Users, Lightbulb, Compass, Sparkles, Activity, HeartPulse, Network, Leaf } from "lucide-react";
 
 const Approach = () => {
@@ -41,7 +42,13 @@ const Approach = () => {
   ];
 
   return (
-    <main className="min-h-screen bg-background">
+    <>
+      <SEO
+        title="Therapy Approach | Inner Horizon"
+        description="A bio-psycho-social-spiritual, trauma-informed approach: IFS, psychodynamic therapy, CBT/DBT, Jungian psychology, and mind-body integration."
+        canonical="https://www.innerhorizon.in/approach"
+      />
+      <main className="min-h-screen bg-background">
       <div className="site-container page-section">
         {/* Header */}
         <div className="text-center mb-16">
@@ -153,6 +160,7 @@ const Approach = () => {
         </section>
       </div>
     </main>
+    </>
   );
 };
 

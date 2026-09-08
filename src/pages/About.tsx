@@ -1,9 +1,16 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { SEO } from "@/components/SEO";
 import { Quote } from "lucide-react";
 
 const About = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <>
+      <SEO
+        title="About Dr. Rajat K. Thukral | RCI-Registered Clinical Psychologist, New Delhi"
+        description="Psy.D. clinical psychologist with 20+ years of experience in India and the U.S. Trauma-informed, integrative therapy in South Delhi and online."
+        canonical="https://www.innerhorizon.in/about"
+      />
+      <main className="min-h-screen bg-background">
       <div className="site-container page-section">
         {/* Header */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
@@ -111,6 +118,7 @@ const About = () => {
         </section>
       </div>
     </main>
+    </>
   );
 };
 

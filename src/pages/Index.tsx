@@ -1,11 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import { SEO } from "@/components/SEO";
 import { Brain, CalendarClock, Clock3, IndianRupee, LockKeyhole, MessageCircle, ShieldCheck, Users, Instagram, Linkedin } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO
+        title="Inner Horizon | Trauma-Informed Psychotherapy with Dr. Rajat K. Thukral"
+        description="Trauma-informed, holistic psychotherapy for individuals, couples and families with Dr. Rajat K. Thukral. In-person in South Delhi and online."
+        canonical="https://www.innerhorizon.in/"
+      />
+      <div className="min-h-screen">
       {/* Hero Section */}
       <section className="overflow-hidden bg-background">
         <div className="site-container py-14 md:py-20 lg:py-24">
@@ -163,6 +170,7 @@ const Index = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

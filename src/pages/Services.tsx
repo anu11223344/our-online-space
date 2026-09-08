@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { SEO } from "@/components/SEO";
 import { User, Users, Star, UserCheck, BookOpen, Users2, HandHeart } from "lucide-react";
 
 const Services = () => {
@@ -74,7 +75,13 @@ const Services = () => {
   ];
 
   return (
-    <main className="min-h-screen bg-background">
+    <>
+      <SEO
+        title="Therapy Services | Individual, Couple, Family & Group Therapy | Inner Horizon"
+        description="Individual, couple and family therapy, DBT and support groups, workshops, and clinical supervision. In-person in Greater Kailash-II, New Delhi and online."
+        canonical="https://www.innerhorizon.in/services"
+      />
+      <main className="min-h-screen bg-background">
       <div className="site-container page-section">
         {/* Header */}
         <div className="text-center mb-16">
@@ -156,6 +163,7 @@ const Services = () => {
         </section>
       </div>
     </main>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import { SEO } from "@/components/SEO";
 import { Loader2, Mail, Phone } from "lucide-react";
 import { z } from "zod";
 import { supabase } from "@/integrations/supabase/client";
@@ -78,7 +79,13 @@ const Contact = () => {
   const errorFor = (field: keyof FormFields) => errors[field] ? <p id={`${field}-error`} className="mt-2 text-sm text-destructive">{errors[field]}</p> : null;
 
   return (
-    <main className="min-h-screen bg-background">
+    <>
+      <SEO
+        title="Contact & Booking | Inner Horizon"
+        description="Book a consultation with Dr. Rajat K. Thukral. In-person sessions in Greater Kailash-II, New Delhi and online sessions across India."
+        canonical="https://www.innerhorizon.in/contact"
+      />
+      <main className="min-h-screen bg-background">
       <section className="page-section">
         <div className="site-container grid gap-12 lg:grid-cols-[0.75fr_1.25fr] lg:gap-20">
           <div>
@@ -122,6 +129,7 @@ const Contact = () => {
         </div>
       </section>
     </main>
+    </>
   );
 };
 
