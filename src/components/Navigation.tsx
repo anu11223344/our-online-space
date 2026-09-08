@@ -31,6 +31,9 @@ const Navigation = () => {
               height={160}
               className="h-[34px] md:h-10 w-auto object-contain shrink-0"
             />
+            <span className="ml-2 text-lg md:text-xl font-display text-healing-sage whitespace-nowrap">
+              Inner Horizon
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
