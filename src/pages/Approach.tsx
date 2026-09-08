@@ -42,7 +42,13 @@ const Approach = () => {
   ];
 
   return (
-    <main className="min-h-screen bg-background">
+    <>
+      <SEO
+        title="Therapy Approach | Inner Horizon"
+        description="A bio-psycho-social-spiritual, trauma-informed approach: IFS, psychodynamic therapy, CBT/DBT, Jungian psychology, and mind-body integration."
+        canonical="https://www.innerhorizon.in/approach"
+      />
+      <main className="min-h-screen bg-background">
       <div className="site-container page-section">
         {/* Header */}
         <div className="text-center mb-16">
