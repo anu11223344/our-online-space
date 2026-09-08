@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { SEO } from "@/components/SEO";
 import { Quote } from "lucide-react";
 
 const About = () => {

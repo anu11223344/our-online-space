@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import { SEO } from "@/components/SEO";
 import { Brain, CalendarClock, Clock3, IndianRupee, LockKeyhole, MessageCircle, ShieldCheck, Users, Instagram, Linkedin } from "lucide-react";
 
 const Index = () => {

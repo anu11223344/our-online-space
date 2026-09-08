@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { SEO } from "@/components/SEO";
 import { Quote, Brain, Shield, Users, Lightbulb, Compass, Sparkles, Activity, HeartPulse, Network, Leaf } from "lucide-react";
 
 const Approach = () => {
