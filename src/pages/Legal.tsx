@@ -28,6 +28,7 @@ export const Privacy = () => (
     <section><h2 className="section-title-sm mb-3">How it is handled</h2><p>Enquiries are stored securely so Dr. Rajat K. Thukral can respond. Please do not include diagnosis, crisis details, or clinical history in the message field.</p></section>
     <section><h2 className="section-title-sm mb-3">Questions</h2><p>Email <a className="text-primary underline underline-offset-4" href="mailto:innerhorizoncare@gmail.com">innerhorizoncare@gmail.com</a> with a privacy question or request.</p></section>
   </LegalPage>
+  </>
 );
 
 export const Terms = () => (
@@ -38,6 +39,7 @@ export const Terms = () => (
     <section><h2 className="section-title-sm mb-3">Appointments</h2><p>Fees are shared directly on enquiry. Cancellations require 24 hours’ notice or the session is charged in full.</p></section>
     <section><h2 className="section-title-sm mb-3">Urgent support</h2><p>This website is not monitored as an emergency or crisis service. Contact local emergency services when immediate help is needed.</p></section>
   </LegalPage>
+  </>
 );
 
 export const Accessibility = () => (
@@ -46,6 +48,7 @@ export const Accessibility = () => (
     <LegalPage title="Accessibility" intro="Inner Horizon aims to make this website clear, readable, keyboard accessible, and usable across common screen sizes.">
     <section><h2 className="section-title-sm mb-3">Support</h2><p>If you encounter an accessibility barrier, email <a className="text-primary underline underline-offset-4" href="mailto:innerhorizoncare@gmail.com">innerhorizoncare@gmail.com</a> or call <a className="text-primary underline underline-offset-4" href="tel:+919205500670">+91 92055 00670</a>.</p></section>
   </LegalPage>
+  </>
 );
 
 export const CrisisSupport = () => (
@@ -54,4 +57,5 @@ export const CrisisSupport = () => (
     <LegalPage title="Crisis Support" intro="Inner Horizon is not an emergency or crisis service. If there is immediate risk to safety, contact local emergency services.">
     <section><h2 className="section-title-sm mb-3">India-based helplines</h2><ul className="space-y-3"><li><strong>AASRA (24/7):</strong> 91-9820466726 or 91-22-27546669</li><li><strong>iCall (TISS):</strong> +91 9152987821, Monday–Saturday, 10 AM–8 PM</li><li><strong>Vandrevala Foundation:</strong> 1860 266 2345 or 9999 666 555</li></ul><p className="mt-4">Outside India, contact your local emergency or crisis service.</p></section>
   </LegalPage>
+  </>
 );
