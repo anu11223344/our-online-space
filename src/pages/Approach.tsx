@@ -160,6 +160,7 @@ const Approach = () => {
         </section>
       </div>
     </main>
+    </>
   );
 };
 
