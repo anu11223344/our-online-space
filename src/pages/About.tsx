@@ -13,15 +13,27 @@ const About = () => {
       <main className="min-h-screen bg-background">
       <div className="site-container page-section">
         {/* Header */}
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <h1 className="page-title mb-6">
-            Meet Dr. Rajat K. Thukral
-          </h1>
-          <p className="measure mx-auto text-lg text-foreground/80">
-            I am an RCI-registered clinical psychologist with more than 20 years of experience 
-            in supporting adults, couples, and families across India and the U.S. My work focuses 
-            on helping people find clarity, connection, and a deeper sense of meaning.
-          </p>
+        <div className="mb-16 md:mb-24">
+          <div className="text-center mb-10 max-w-3xl mx-auto">
+            <h1 className="page-title mb-6">
+              Meet Dr. Rajat K. Thukral
+            </h1>
+          </div>
+
+          <div className="grid lg:grid-cols-[1fr_300px] gap-10 lg:gap-16 items-start max-w-5xl mx-auto">
+            <p className="measure text-lg text-foreground/80">
+              I am an RCI-registered clinical psychologist with more than 20 years of experience 
+              in supporting adults, couples, and families across India and the U.S. My work focuses 
+              on helping people find clarity, connection, and a deeper sense of meaning.
+            </p>
+            <img
+              src="/dr-rajat-thukral.jpg"
+              alt="Dr. Rajat K. Thukral, clinical psychologist"
+              width={320}
+              height={400}
+              className="aspect-[4/5] w-full rounded-2xl object-cover object-top shadow-gentle"
+            />
+          </div>
         </div>
 
         {/* Training Background */}
