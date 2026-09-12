@@ -42,7 +42,7 @@ const Services = () => {
     {
       icon: Users2,
       title: "Group Therapy",
-      description: "Structured DBT groups to unstructured anxiety, trauma, and grief support groups.",
+      description: "From structured DBT groups to unstructured anxiety, trauma, and grief support groups.",
       features: [
         "Peer support and connection",
         "Shared healing experiences",
@@ -64,7 +64,7 @@ const Services = () => {
     {
       icon: UserCheck,
       title: "Training & Supervision",
-      description: "Mentoring early career therapist and Psychology students.",
+      description: "Mentoring early career therapists and psychology students.",
       features: [
         "Clinical supervision",
         "Professional development",

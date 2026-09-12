@@ -15,7 +15,7 @@ const Footer = () => {
               Inner Horizon | Mental Health Services
             </p>
             <p className="text-primary-foreground/70 text-sm max-w-md">
-              Thoughtful support for mind, body, relationships, and emotional wellbeing.
+              Thoughtful support for mind, body, relationships - with emotional wellbeing.
             </p>
           </div>
 
