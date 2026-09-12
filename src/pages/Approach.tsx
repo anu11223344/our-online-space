@@ -22,7 +22,7 @@ const Approach = () => {
     {
       icon: Lightbulb,
       title: "Cognitive and Dialectical Behaviour Therapy",
-      description: "Structured goal oriented approach to become more aware of thoughts, manage intense emotions, and make meaningful behavioural changes."
+      description: "Structured, goal-oriented approach to become more aware of thoughts, manage intense emotions, and make meaningful behavioural changes."
     },
     {
       icon: Sparkles,
