@@ -64,6 +64,11 @@ const Navigation = () => {
               aria-expanded={isMenuOpen}
               aria-controls="mobile-menu"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className={
+                isMenuOpen
+                  ? "bg-healing-sage text-white hover:bg-healing-sage/90 hover:text-white"
+                  : undefined
+              }
             >
               {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
