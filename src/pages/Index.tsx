@@ -139,17 +139,19 @@ const Index = () => {
               href="https://www.instagram.com/innerhorizon.in" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="Inner Horizon on Instagram"
               className="text-healing-sage hover:text-deep-forest transition-colors"
             >
-              <Instagram className="h-8 w-8" />
+              <Instagram className="h-8 w-8" aria-hidden="true" />
             </a>
             <a 
               href="https://www.linkedin.com/in/dr-rajat-kaur-thukral-55ab1510" 
               target="_blank" 
               rel="noopener noreferrer"
+              aria-label="Dr. Rajat K. Thukral on LinkedIn"
               className="text-healing-sage hover:text-deep-forest transition-colors"
             >
-              <Linkedin className="h-8 w-8" />
+              <Linkedin className="h-8 w-8" aria-hidden="true" />
             </a>
           </div>
         </div>

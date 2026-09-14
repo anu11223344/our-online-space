@@ -127,6 +127,13 @@ All colors MUST be HSL.
   a, button, input, select, textarea, label {
     letter-spacing: 0;
   }
+
+  a:focus-visible,
+  button:focus-visible,
+  [role="button"]:focus-visible {
+    outline: 2px solid hsl(var(--deep-forest)) !important;
+    outline-offset: 2px !important;
+  }
 }
 
 @layer components {
