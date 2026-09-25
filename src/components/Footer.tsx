@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo & Description */}
           <div className="md:col-span-2">
             <div className="flex items-center mb-4">
-              <img src="/inner-horizon-lockup.png" alt="Inner Horizon Mental Wellness" width={630} height={160} className="h-12 w-auto object-contain shrink-0 brightness-0 invert" />
+              <img src="/inner-horizon-lockup.png" alt="Inner Horizon Mental Well-Being" width={1425} height={511} className="h-16 w-auto shrink-0 object-contain" />
             </div>
             <p className="mb-4 max-w-md text-sage-foreground">
               Inner Horizon | Mental Health Services
