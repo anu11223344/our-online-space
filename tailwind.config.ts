@@ -57,6 +57,11 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				// Therapeutic color system
+				sage: {
+					DEFAULT: 'hsl(var(--sage))',
+					foreground: 'hsl(var(--sage-foreground))',
+					border: 'hsl(var(--sage-border))'
+				},
 				'healing-sage': 'hsl(var(--healing-sage))',
 				'warm-earth': 'hsl(var(--warm-earth))',
 				'soft-gold': 'hsl(var(--soft-gold))',

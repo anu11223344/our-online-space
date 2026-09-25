@@ -37,6 +37,9 @@ All colors MUST be HSL.
     --ring: 162 52% 29%;
 
     /* Therapeutic design tokens */
+    --sage: 162.6316 16.9643% 43.9216%;
+    --sage-foreground: 0 0% 100%;
+    --sage-border: 161.1429 18.1347% 37.8431%;
     --healing-sage: 162 45% 34%;
     --warm-earth: 25 35% 70%;
     --soft-gold: 45 80% 75%;
