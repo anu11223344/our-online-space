@@ -26,14 +26,11 @@ const Navigation = () => {
           >
             <img
               src="/inner-horizon-lockup.png"
-              alt="Inner Horizon Mental Wellness"
-              width={630}
-              height={160}
-              className="h-[34px] md:h-10 w-auto object-contain shrink-0"
+              alt="Inner Horizon Mental Well-Being"
+              width={1425}
+              height={511}
+              className="h-10 w-auto shrink-0 object-contain md:h-12"
             />
-            <span className="ml-2 whitespace-nowrap font-display text-lg text-sage-foreground md:text-xl">
-              Inner Horizon
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
