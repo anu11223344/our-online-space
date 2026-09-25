@@ -15,7 +15,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-border bg-card/95 font-sans backdrop-blur-sm" aria-label="Main navigation">
+    <nav className="sticky top-0 z-50 border-b border-sage-border bg-sage font-sans" aria-label="Main navigation">
       <div className="mx-auto w-full max-w-[1200px] px-4">
         <div className="flex items-center justify-between h-16 md:h-[72px]">
           {/* Logo */}
@@ -31,7 +31,7 @@ const Navigation = () => {
               height={160}
               className="h-[34px] md:h-10 w-auto object-contain shrink-0"
             />
-            <span className="ml-2 text-lg md:text-xl font-display text-healing-sage whitespace-nowrap">
+            <span className="ml-2 whitespace-nowrap font-display text-lg text-sage-foreground md:text-xl">
               Inner Horizon
             </span>
           </Link>
@@ -43,14 +43,12 @@ const Navigation = () => {
                 key={item.path}
                 to={item.path}
                 aria-current={location.pathname === item.path ? "page" : undefined}
-                className={`focus-ring whitespace-nowrap text-sm font-medium transition-colors hover:text-primary ${
-                  location.pathname === item.path ? "text-primary" : "text-foreground/75"
-                }`}
+                className="focus-ring whitespace-nowrap text-sm font-medium text-sage-foreground transition-colors hover:text-sage-foreground"
               >
                 {item.label}
               </Link>
             ))}
-            <Button asChild className="whitespace-nowrap">
+            <Button asChild className="whitespace-nowrap bg-sage-foreground text-sage hover:bg-sage-foreground/90 hover:text-sage">
               <Link to="/contact">Book a consultation</Link>
             </Button>
           </div>
@@ -64,11 +62,7 @@ const Navigation = () => {
               aria-expanded={isMenuOpen}
               aria-controls="mobile-menu"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className={
-                isMenuOpen
-                  ? "bg-healing-sage text-white hover:bg-healing-sage/90 hover:text-white"
-                  : undefined
-              }
+              className="text-sage-foreground hover:bg-sage-border hover:text-sage-foreground"
             >
               {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
@@ -77,21 +71,19 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div id="mobile-menu" className="md:hidden py-4 border-t border-border">
+          <div id="mobile-menu" className="border-t border-sage-border bg-sage py-4 md:hidden">
             <div className="flex flex-col space-y-3">
               {navItems.map((item) => (
                 <Link
                   key={item.path}
                   to={item.path}
-                   className={`focus-ring py-2 text-sm font-medium transition-colors hover:text-primary ${
-                     location.pathname === item.path ? "text-primary" : "text-foreground/75"
-                  }`}
+                   className="focus-ring py-2 text-sm font-medium text-sage-foreground transition-colors hover:text-sage-foreground"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
                 </Link>
               ))}
-               <Button asChild className="mt-4 w-full">
+               <Button asChild className="mt-4 w-full bg-sage-foreground text-sage hover:bg-sage-foreground/90 hover:text-sage">
                 <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Book a consultation</Link>
               </Button>
             </div>
