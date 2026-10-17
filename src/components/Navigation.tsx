@@ -11,6 +11,7 @@ const Navigation = () => {
     { path: "/about", label: "About" },
     { path: "/approach", label: "Approach" },
     { path: "/services", label: "Services" },
+    { path: "/events", label: "Events & Workshops" },
     { path: "/contact", label: "Contact" }
   ];
 
@@ -34,7 +35,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-4 xl:gap-6">
             {navItems.map((item) => (
               <Link
                 key={item.path}
@@ -51,7 +52,7 @@ const Navigation = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <Button
               variant="ghost"
               size="sm"
@@ -68,7 +69,7 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div id="mobile-menu" className="border-t border-sage-border bg-sage py-4 md:hidden">
+          <div id="mobile-menu" className="border-t border-sage-border bg-sage py-4 lg:hidden">
             <div className="flex flex-col space-y-3">
               {navItems.map((item) => (
                 <Link

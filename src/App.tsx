@@ -12,6 +12,8 @@ import NotFound from "./pages/NotFound";
 import { Accessibility, CrisisSupport, Privacy, Terms } from "./pages/Legal";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import Events from "./pages/Events";
+import PoetryRelease from "./pages/PoetryRelease";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +30,8 @@ const App = () => (
           <Route path="/approach" element={<Approach />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/events/poetry-release" element={<PoetryRelease />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/accessibility" element={<Accessibility />} />
