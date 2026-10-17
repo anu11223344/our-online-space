@@ -159,7 +159,7 @@ const Services = () => {
         <section className="bg-primary px-6 py-12 text-center text-primary-foreground">
           <h2 className="section-title mb-4 text-primary-foreground">Arrange a first conversation</h2>
           <p className="mx-auto mb-8 max-w-2xl text-lg text-primary-foreground/90">Ask about availability, fees, and whether a particular service may be a suitable fit.</p>
-          <Button asChild size="lg" variant="secondary"><Link to="/contact">Book a consultation</Link></Button>
+          <Button asChild size="lg" variant="secondary"><Link to="/contact">Contact us</Link></Button>
         </section>
       </div>
     </main>

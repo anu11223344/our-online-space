@@ -14,7 +14,7 @@ export const LegalPage = ({ title, intro, children }: LegalPageProps) => (
       <p className="measure text-lg text-foreground/80">{intro}</p>
       <div className="mt-10 space-y-8 text-base leading-relaxed text-foreground/80">{children}</div>
       <Link className="mt-10 inline-block font-medium text-primary underline underline-offset-4 focus-ring" to="/contact">
-        Book a consultation
+        Contact us
       </Link>
     </article>
   </main>

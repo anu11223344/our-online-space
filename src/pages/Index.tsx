@@ -32,7 +32,7 @@ const Index = () => {
 
               <div className="flex flex-wrap items-center gap-6">
                 <Button asChild size="lg">
-                  <Link to="/contact">Book a consultation</Link>
+                  <Link to="/contact">Contact us</Link>
                 </Button>
                 <Link
                   to="/services"
@@ -167,7 +167,7 @@ const Index = () => {
             Reach out to arrange an initial conversation and consider whether working together feels right.
           </p>
           <Button asChild size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
-            <Link to="/contact">Book a consultation</Link>
+            <Link to="/contact">Contact us</Link>
           </Button>
         </div>
       </section>
