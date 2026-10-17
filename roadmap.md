@@ -12,3 +12,6 @@
 - [x] Add navigation, footer link, page metadata, Event structured data, and sitemap.
 - [x] Verify registration opens Google sign-in, desktop/mobile navigation and layouts, and workshop rule tests.
 - [x] Add and verify the supplied Poetry Release poster on both workshop pages and in poster og:image.
+
+# Contact navigation
+- [ ] Keep Contact as the single header destination, remove the duplicate consultation link, and verify the Contact page.
