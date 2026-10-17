@@ -14,4 +14,4 @@
 - [x] Add and verify the supplied Poetry Release poster on both workshop pages and in poster og:image.
 
 # Contact navigation
-- [ ] Keep Contact as the single header destination, remove the duplicate consultation link, and verify the Contact page.
+- [x] Keep Contact as the single header destination, remove the duplicate consultation link, and verify navigation, form validation, and practice contact links on desktop/mobile; email delivery remains unverified.
