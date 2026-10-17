@@ -15,4 +15,4 @@
 
 # Contact navigation
 - [x] Keep Contact as the single header destination, remove the duplicate consultation link, and verify navigation, form validation, and practice contact links on desktop/mobile; email delivery remains unverified.
-- [ ] Rename every "Book a consultation" button and link to "Contact us", remove the duplicate footer link, and verify each button resolves to the Contact page on desktop and mobile.
+- [x] Rename every "Book a consultation" button and link to "Contact us", remove the duplicate footer link, and verify each button resolves to the Contact page on desktop and mobile.
