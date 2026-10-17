@@ -46,9 +46,6 @@ const Navigation = () => {
                 {item.label}
               </Link>
             ))}
-            <Button asChild className="whitespace-nowrap bg-sage-foreground text-sage hover:bg-sage-foreground/90 hover:text-sage">
-              <Link to="/contact">Book a consultation</Link>
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -81,9 +78,6 @@ const Navigation = () => {
                   {item.label}
                 </Link>
               ))}
-               <Button asChild className="mt-4 w-full bg-sage-foreground text-sage hover:bg-sage-foreground/90 hover:text-sage">
-                <Link to="/contact" onClick={() => setIsMenuOpen(false)}>Book a consultation</Link>
-              </Button>
             </div>
           </div>
         )}

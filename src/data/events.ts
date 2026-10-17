@@ -1,3 +1,5 @@
+import poetryReleasePoster from "@/assets/poetry-release-poster.jpg.asset.json";
+
 export const registrationUrl = "https://docs.google.com/forms/d/e/1FAIpQLSfJlLH_E9LgyGumCIoBq8xeP4ZSh8UZN1ZIJju_utrtC21aBA/viewform";
 
 export type WorkshopEvent = {
@@ -33,6 +35,7 @@ export const events: WorkshopEvent[] = [
     price: 1800,
     currency: "INR",
     limitedSeats: true,
+    poster: poetryReleasePoster.url,
     posterAlt: "Poetry Release online workshop poster",
     refundHours: 48,
     refundPolicy: "Full refund up to 48 hours before the workshop. No refund afterwards.",
