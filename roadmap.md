@@ -11,4 +11,4 @@
 - [x] Add workshop data, listing, detail page, and registration links/embed.
 - [x] Add navigation, footer link, page metadata, Event structured data, and sitemap.
 - [x] Verify registration opens Google sign-in, desktop/mobile navigation and layouts, and workshop rule tests.
-- [ ] Add and verify poster and poster og:image — blocked: Poetry Release poster was not supplied among uploaded images.
+- [x] Add and verify the supplied Poetry Release poster on both workshop pages and in poster og:image.
