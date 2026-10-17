@@ -35,7 +35,7 @@ export const events: WorkshopEvent[] = [
     price: 1800,
     currency: "INR",
     limitedSeats: true,
-    poster: poetryReleasePoster.url,
+    poster: new URL(poetryReleasePoster.url, "https://our-online-space.lovable.app").href,
     posterAlt: "Poetry Release online workshop poster",
     refundHours: 48,
     refundPolicy: "Full refund up to 48 hours before the workshop. No refund afterwards.",
