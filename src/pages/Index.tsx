@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { SEO } from "@/components/SEO";
 import { Brain, CalendarClock, Clock3, IndianRupee, LockKeyhole, MessageCircle, ShieldCheck, Users, Instagram, Linkedin } from "lucide-react";
+import InstagramFeed from "@/components/InstagramFeed";
 
 const Index = () => {
   return (
@@ -134,6 +135,9 @@ const Index = () => {
           <p className="text-muted-foreground mb-8 max-w-md mx-auto">
             Stay connected and join the conversation on mental health and wellness
           </p>
+          <div className="mb-8">
+            <InstagramFeed />
+          </div>
           <div className="flex gap-6 justify-center">
             <a 
               href="https://www.instagram.com/innerhorizon.in" 
