@@ -60,6 +60,7 @@ export default {
 					DEFAULT: 'hsl(var(--action))',
 					foreground: 'hsl(var(--action-foreground))'
 				},
+				heading: 'hsl(var(--heading))',
 				// Therapeutic color system
 				sage: {
 					DEFAULT: 'hsl(var(--sage))',
