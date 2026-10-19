@@ -18,4 +18,5 @@
 - [x] Rename every "Book a consultation" button and link to "Contact us", remove the duplicate footer link, and verify each button resolves to the Contact page on desktop and mobile.
 
 # Instagram
-- [ ] Add Instagram section to homepage showing @innerhorizon.in posts (live feed needs a free SnapWidget/LightWidget embed code from the user).
+- [x] Add Instagram section to homepage linking to @innerhorizon.in (verified desktop/mobile).
+- [ ] Show live Instagram posts — blocked: needs a free SnapWidget/LightWidget embed code from the user.
