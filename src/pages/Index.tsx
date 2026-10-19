@@ -96,7 +96,7 @@ const Index = () => {
             <Card className="interactive-card" tabIndex={0}>
               <CardContent className="p-6 text-center">
                 <ShieldCheck className="h-9 w-9 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Trauma-Informed Care</h3>
+                <h3 className="text-xl font-semibold mb-3 text-heading">Trauma-Informed Care</h3>
                 <p className="text-muted-foreground">
                   Gentle approaches that honour your nervous system and pace.
                 </p>
@@ -106,7 +106,7 @@ const Index = () => {
             <Card className="interactive-card" tabIndex={0}>
               <CardContent className="p-6 text-center">
                 <Brain className="h-9 w-9 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Integrative Approach</h3>
+                <h3 className="text-xl font-semibold mb-3 text-heading">Integrative Approach</h3>
                 <p className="text-muted-foreground">
                   Combining evidence-based therapy with depth psychology and mind-body practices
                 </p>
@@ -116,7 +116,7 @@ const Index = () => {
             <Card className="interactive-card" tabIndex={0}>
               <CardContent className="p-6 text-center">
                 <Users className="h-9 w-9 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-3">Culturally Sensitive</h3>
+                <h3 className="text-xl font-semibold mb-3 text-heading">Culturally Sensitive</h3>
                 <p className="text-muted-foreground">
                   LGBTQIA+ affirmative space with deep respect for your cultural identity
                 </p>

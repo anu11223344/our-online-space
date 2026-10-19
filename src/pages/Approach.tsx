@@ -75,7 +75,7 @@ const Approach = () => {
                 <div className="w-12 h-12 bg-healing-sage/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <HeartPulse className="h-6 w-6 text-primary" aria-hidden="true" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Biological</h3>
+                <h3 className="font-semibold text-lg mb-2 text-heading">Biological</h3>
                 <p className="text-muted-foreground text-sm">
                   Nervous system, sleep, diet, and physical health
                 </p>
@@ -87,7 +87,7 @@ const Approach = () => {
                 <div className="w-12 h-12 bg-healing-sage/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Brain className="h-6 w-6 text-primary" aria-hidden="true" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Psychological</h3>
+                <h3 className="font-semibold text-lg mb-2 text-heading">Psychological</h3>
                 <p className="text-muted-foreground text-sm">
                   Thoughts, emotions, and inner narratives
                 </p>
@@ -99,7 +99,7 @@ const Approach = () => {
                 <div className="w-12 h-12 bg-healing-sage/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Network className="h-6 w-6 text-primary" aria-hidden="true" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Social</h3>
+                <h3 className="font-semibold text-lg mb-2 text-heading">Social</h3>
                 <p className="text-muted-foreground text-sm">
                   Family, community, and cultural identity
                 </p>
@@ -111,7 +111,7 @@ const Approach = () => {
                 <div className="w-12 h-12 bg-healing-sage/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Leaf className="h-6 w-6 text-primary" aria-hidden="true" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Spiritual</h3>
+                <h3 className="font-semibold text-lg mb-2 text-heading">Spiritual</h3>
                 <p className="text-muted-foreground text-sm">
                   Values, purpose, meaning, and intuition
                 </p>
@@ -134,7 +134,7 @@ const Approach = () => {
                       <div className="w-12 h-12 bg-healing-sage/10 rounded-full flex items-center justify-center flex-shrink-0">
                          {IconComponent && <IconComponent className="h-6 w-6 text-primary" aria-hidden="true" />}
                       </div>
-                      <CardTitle className="text-lg leading-tight">{approach.title}</CardTitle>
+                      <CardTitle className="text-lg leading-tight text-heading">{approach.title}</CardTitle>
                     </div>
                   </CardHeader>
                   <CardContent className="pt-0 pl-16">

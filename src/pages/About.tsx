@@ -45,15 +45,15 @@ const About = () => {
               <CardContent className="p-6">
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-semibold text-lg">Psy.D. in Clinical Psychology</h3>
+                    <h3 className="font-semibold text-lg text-heading">Psy.D. in Clinical Psychology</h3>
                     <p className="text-muted-foreground">California Institute of Integral Studies, San Francisco, USA</p>
                   </div>
                   <div>
-                    <h3 className="text-lg">Predoctoral Internship</h3>
+                    <h3 className="text-lg text-heading">Predoctoral Internship</h3>
                     <p className="text-muted-foreground">Miami University Counseling Center, Ohio, USA</p>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">Postdoctoral Fellowship</h3>
+                    <h3 className="font-semibold text-lg text-heading">Postdoctoral Fellowship</h3>
                     <p className="text-muted-foreground">Miami University Counseling Center, Ohio, USA</p>
                   </div>
                 </div>
@@ -64,11 +64,11 @@ const About = () => {
               <CardContent className="p-6">
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-semibold text-lg">MA in Applied Clinical Psychology</h3>
+                    <h3 className="font-semibold text-lg text-heading">MA in Applied Clinical Psychology</h3>
                     <p className="text-muted-foreground">Pennsylvania State University, USA</p>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">MA in Applied Psychology</h3>
+                    <h3 className="font-semibold text-lg text-heading">MA in Applied Psychology</h3>
                     <p className="text-muted-foreground">University of Delhi, India</p>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ const About = () => {
           <div className="space-y-6">
             <Card className="interactive-card">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-lg mb-3">Clinical Experience</h3>
+                <h3 className="font-semibold text-lg mb-3 text-heading">Clinical Experience</h3>
                 <p className="text-muted-foreground">
                   Gained extensive clinical experience in the U.S. and India — from university counselling 
                   centres to private practice — grounded in both western scientific models and the cultural 

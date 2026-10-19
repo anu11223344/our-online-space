@@ -10,7 +10,7 @@ function EventCard({ event }: { event: WorkshopEvent }) {
       <div className="space-y-5 p-6">
         {event.limitedSeats && <span className="inline-block rounded-sm bg-sage px-3 py-1 text-sm font-medium text-sage-foreground">Limited seats</span>}
         <div>
-          <h3 className="mb-3 text-3xl text-sage">{event.title}</h3>
+          <h3 className="mb-3 text-3xl text-heading">{event.title}</h3>
           <p className="text-foreground">{event.subtitle}</p>
         </div>
         <p className="text-base font-medium">{event.dateLabel} | {event.timeLabel} | {event.venue} | Rs {event.price}</p>

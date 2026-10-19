@@ -103,7 +103,7 @@ const Services = () => {
                       <IconComponent className="h-5 w-5 text-primary" aria-hidden="true" />
                     </div>
                     <div>
-                      <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
+                      <CardTitle className="text-xl mb-2 text-heading">{service.title}</CardTitle>
                       <p className="text-foreground/75">{service.description}</p>
                     </div>
                   </div>
@@ -132,14 +132,14 @@ const Services = () => {
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
-                  <h3 className="mb-3 text-lg">Location</h3>
+                  <h3 className="mb-3 text-lg text-heading">Location</h3>
                   <p className="mb-4 text-foreground/75">
                     Sessions are offered both in-person in South Delhi (Greater Kailash-II) 
                     and online for your convenience.
                   </p>
                 </div>
                 <div>
-                  <h3 className="mb-3 flex items-center gap-2 text-lg text-primary">
+                  <h3 className="mb-3 flex items-center gap-2 text-lg text-heading">
                     <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-healing-sage/10">
                       <HandHeart className="h-4 w-4" aria-hidden="true" />
                     </span>
