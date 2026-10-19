@@ -23,7 +23,7 @@ export default function PoetryRelease() {
               <h1 className="page-title mb-5">{event.title}</h1>
               <p className="mb-5 text-lg">{event.subtitle}</p>
               <p className="mb-5 text-base font-medium">{event.dateLabel} | {event.timeLabel} | {event.venue} | Rs {event.price}</p>
-              <Button asChild size="lg" className="mb-8 w-full bg-sage text-sage-foreground hover:bg-sage-border sm:w-auto"><a href={registrationUrl} target="_blank" rel="noopener noreferrer">Register now</a></Button>
+              <Button asChild size="lg" className="mb-8 w-full bg-action text-action-foreground hover:bg-action/90 sm:w-auto"><a href={registrationUrl} target="_blank" rel="noopener noreferrer">Register now</a></Button>
               <p className="measure text-lg">{event.body}</p>
             </div>
             {event.poster && <img src={event.poster} alt={event.posterAlt} className="h-auto w-full object-contain" />}
@@ -51,7 +51,7 @@ export default function PoetryRelease() {
           <div className="site-container">
             <h2 id="register-heading" className="section-title mb-5">Register</h2>
             <p className="measure mb-6">Registration is through a Google Form and needs a Google sign-in. You will be asked to upload a payment screenshot.</p>
-            <Button asChild size="lg" className="mb-8 w-full bg-sage text-sage-foreground hover:bg-sage-border sm:w-auto"><a href={registrationUrl} target="_blank" rel="noopener noreferrer">Register now</a></Button>
+            <Button asChild size="lg" className="mb-8 w-full bg-action text-action-foreground hover:bg-action/90 sm:w-auto"><a href={registrationUrl} target="_blank" rel="noopener noreferrer">Register now</a></Button>
             <iframe src={`${registrationUrl}?embedded=true`} title="Poetry Release registration form" width="100%" height="1400" className="w-full border-0" loading="lazy" />
             <p className="mt-5">Form not loading? <a className="focus-ring text-sage underline underline-offset-4" href={registrationUrl} target="_blank" rel="noopener noreferrer">Open it here</a></p>
             <p className="mt-8">Queries: WhatsApp <a className="focus-ring whitespace-nowrap text-sage underline underline-offset-4" href="https://wa.me/919205500670" target="_blank" rel="noopener noreferrer">92055 00670</a> or email <a className="focus-ring break-all text-sage underline underline-offset-4" href="mailto:innerhorizoncare@gmail.com">innerhorizoncare@gmail.com</a></p>

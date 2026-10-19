@@ -16,7 +16,7 @@ function EventCard({ event }: { event: WorkshopEvent }) {
         <p className="text-base font-medium">{event.dateLabel} | {event.timeLabel} | {event.venue} | Rs {event.price}</p>
         <div className="flex flex-wrap gap-3">
           <Button asChild variant="outline" className="border-sage text-sage hover:bg-sage hover:text-sage-foreground"><Link to={`/events/${event.slug}`}>View details</Link></Button>
-          <Button asChild className="bg-sage text-sage-foreground hover:bg-sage-border"><a href={registrationUrl} target="_blank" rel="noopener noreferrer">Register</a></Button>
+          <Button asChild className="bg-action text-action-foreground hover:bg-action/90"><a href={registrationUrl} target="_blank" rel="noopener noreferrer">Register</a></Button>
         </div>
       </div>
     </article>
