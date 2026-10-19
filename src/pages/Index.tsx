@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { SEO } from "@/components/SEO";
-import { Brain, CalendarClock, Clock3, IndianRupee, LockKeyhole, MessageCircle, ShieldCheck, Users, Instagram, Linkedin } from "lucide-react";
+import { Brain, CalendarClock, Clock3, IndianRupee, LockKeyhole, MessageCircle, ShieldCheck, Users } from "lucide-react";
 import InstagramFeed from "@/components/InstagramFeed";
 
 const Index = () => {
@@ -137,26 +137,6 @@ const Index = () => {
           </p>
           <div className="mb-8">
             <InstagramFeed />
-          </div>
-          <div className="flex gap-6 justify-center">
-            <a 
-              href="https://www.instagram.com/innerhorizon.in" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              aria-label="Inner Horizon on Instagram"
-              className="text-healing-sage hover:text-deep-forest transition-colors"
-            >
-              <Instagram className="h-8 w-8" aria-hidden="true" />
-            </a>
-            <a 
-              href="https://www.linkedin.com/in/dr-rajat-kaur-thukral-55ab1510" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              aria-label="Dr. Rajat K. Thukral on LinkedIn"
-              className="text-healing-sage hover:text-deep-forest transition-colors"
-            >
-              <Linkedin className="h-8 w-8" aria-hidden="true" />
-            </a>
           </div>
         </div>
       </section>
