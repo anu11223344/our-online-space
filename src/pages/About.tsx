@@ -95,7 +95,7 @@ const About = () => {
 
             <Card className="interactive-card">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-lg mb-3">Training & Workshops</h3>
+                <h3 className="font-semibold text-lg mb-3 text-heading">Training & Workshops</h3>
                 <p className="text-muted-foreground">
                   Trainer & workshop facilitator specializing in mindfulness, resilience, LGBTQIA+ inclusion, 
                   stress management in corporate, NGO, and academic settings.
@@ -105,7 +105,7 @@ const About = () => {
 
             <Card className="interactive-card">
               <CardContent className="p-6">
-                <h3 className="font-semibold text-lg mb-3">Supervision & Mentorship</h3>
+                <h3 className="font-semibold text-lg mb-3 text-heading">Supervision & Mentorship</h3>
                 <p className="text-muted-foreground">
                   Supervisor and mentor to graduate trainees, early-career therapists, and interns, 
                   supporting culturally sensitive, ethical professional growth.
