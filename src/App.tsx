@@ -12,6 +12,7 @@ import NotFound from "./pages/NotFound";
 import { Accessibility, CrisisSupport, Privacy, Terms } from "./pages/Legal";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 import Events from "./pages/Events";
 import PoetryRelease from "./pages/PoetryRelease";
 
