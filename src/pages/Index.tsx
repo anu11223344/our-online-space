@@ -142,15 +142,15 @@ const Index = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="page-section bg-primary text-primary-foreground">
+      <section className="page-section bg-action text-action-foreground">
         <div className="site-container text-center">
-          <h2 className="section-title mb-6 text-primary-foreground">
+          <h2 className="section-title mb-6 text-action-foreground">
             Ready to talk?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
             Reach out to arrange an initial conversation and consider whether working together feels right.
           </p>
-          <Button asChild size="lg" variant="secondary" className="bg-primary-foreground text-primary hover:bg-primary-foreground/90">
+          <Button asChild size="lg" variant="secondary" className="bg-action-foreground text-action hover:bg-action-foreground/90">
             <Link to="/contact">Contact us</Link>
           </Button>
         </div>

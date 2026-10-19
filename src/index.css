@@ -36,6 +36,10 @@ All colors MUST be HSL.
     --input: 155 14% 76%;
     --ring: 162 52% 29%;
 
+    /* Action buttons and primary CTA panels */
+    --action: 209 55% 22%;
+    --action-foreground: 0 0% 98%;
+
     /* Therapeutic design tokens */
     --sage: 162.6316 16.9643% 43.9216%;
     --sage-foreground: 0 0% 100%;
