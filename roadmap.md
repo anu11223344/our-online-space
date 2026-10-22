@@ -24,3 +24,6 @@
 # Enquiry email delivery
 - [ ] Send each valid enquiry to the practice inbox with visitor reply-to and IST time; show an error if sending fails.
 - [ ] Allow fast/autofilled valid enquiries, deploy, and verify a live submission and sending event.
+
+# Heading labels
+- [ ] Make small labels above headings navy #193957; preserve white footer titles and sage header/footer.
