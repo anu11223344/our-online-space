@@ -27,7 +27,7 @@ export default function Events() {
   const { upcoming, past } = partitionEvents(events);
   return (
     <>
-      <SEO title="Events & Workshops | Inner Horizon" description="Explore upcoming Inner Horizon workshops and gatherings for healing, reflection and growth, including the online Poetry Release workshop." canonical="https://our-online-space.lovable.app/events" />
+      <SEO title="Events & Workshops | Inner Horizon" description="Explore upcoming Inner Horizon workshops and gatherings for healing, reflection and growth, including the online Poetry Release workshop." canonical="https://www.innerhorizon.in/events" />
       <main className="bg-background">
         <div className="site-container page-section">
           <header className="mb-12 max-w-3xl">

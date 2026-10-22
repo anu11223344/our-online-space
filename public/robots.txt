@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://our-online-space.lovable.app/sitemap.xml
+Sitemap: https://www.innerhorizon.in/sitemap.xml

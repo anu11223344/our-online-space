@@ -4,7 +4,7 @@ import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { eventStructuredData, poetryRelease as event, registrationUrl } from "@/data/events";
 
-const siteUrl = "https://our-online-space.lovable.app";
+const siteUrl = "https://www.innerhorizon.in";
 
 export default function PoetryRelease() {
   return (
