@@ -14,7 +14,7 @@
 - [x] Add and verify the supplied Poetry Release poster on both workshop pages and in poster og:image.
 
 # Contact navigation
-- [x] Keep Contact as the single header destination, remove the duplicate consultation link, and verify navigation, form validation, and practice contact links on desktop/mobile; email delivery remains unverified.
+- [x] Keep Contact as the single header destination, remove the duplicate consultation link, and verify navigation, form validation, and practice contact links on desktop/mobile.
 - [x] Rename every "Book a consultation" button and link to "Contact us", remove the duplicate footer link, and verify each button resolves to the Contact page on desktop and mobile.
 
 # Instagram
@@ -26,4 +26,4 @@
 - [x] Allow fast/autofilled valid enquiries, deploy, and verify a live submission and sending event. Inbox/Spam placement requires the recipient’s confirmation.
 
 # Heading labels
-- [ ] Make small labels above headings navy #193957; preserve white footer titles and sage header/footer.
+- [x] Make small labels above headings navy #193957; preserve white footer titles and sage header/footer.
