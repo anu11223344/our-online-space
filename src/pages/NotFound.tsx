@@ -19,7 +19,7 @@ const NotFound = () => {
           height={484}
           className="h-20 w-auto mx-auto mb-6"
         />
-        <p className="text-sm uppercase tracking-widest text-muted-foreground mb-3">Page not found</p>
+        <p className="text-sm uppercase tracking-widest text-heading mb-3">Page not found</p>
         <h1 className="page-title mb-4">
           This path doesn't exist
         </h1>
