@@ -34,7 +34,7 @@ export const events: WorkshopEvent[] = [
     price: 1800,
     currency: "INR",
     limitedSeats: true,
-    poster: "https://www.innerhorizon.in/poetry-release-poster.jpg",
+    poster: "/poetry-release-poster.jpg",
     posterAlt: "Poetry Release online workshop poster",
     refundHours: 48,
     refundPolicy: "Full refund up to 48 hours before the workshop. No refund afterwards.",

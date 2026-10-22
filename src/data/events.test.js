@@ -3,7 +3,7 @@ import { eventStructuredData, isFullRefundEligible, partitionEvents, poetryRelea
 
 describe("Poetry Release rules", () => {
   test("costs Rs 1800 in INR", () => {
-    const schema = eventStructuredData(poetryRelease, "https://our-online-space.lovable.app");
+    const schema = eventStructuredData(poetryRelease, "https://www.innerhorizon.in");
     expect(schema.offers.price).toBe(1800);
     expect(schema.offers.priceCurrency).toBe("INR");
   });
