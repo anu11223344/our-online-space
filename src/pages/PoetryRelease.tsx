@@ -42,7 +42,7 @@ export default function PoetryRelease() {
           <div className="grid items-start gap-8 md:grid-cols-2">
             <div className="flex items-center gap-5">
               <img src="/dr-rajat-thukral.jpg" alt="Dr. Rajat K. Thukral" width={976} height={1220} className="aspect-[4/5] w-24 shrink-0 rounded-lg object-cover object-top" loading="lazy" />
-              <p className="text-base">Dr. Rajat K. Thukral, Psychologist, Founder - Inner Horizon</p>
+              <p className="text-base">Dr. Rajat K. Thukral, Psy. D. (USA), Psychologist, Founder - Inner Horizon</p>
             </div>
             <p className="text-base md:pt-5">Trivarna Hariharan, Poet, Founder - wildflowers_are_prayers</p>
           </div>
