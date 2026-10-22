@@ -1,4 +1,6 @@
 import { createClient } from "npm:@supabase/supabase-js@2";
+import { sendTemplateEmail } from "../_shared/transactional-email-templates/send-email.ts";
+import { acceptsSubmissionTiming, notificationOptions, PRACTICE_INBOX, requireNotificationSent } from "../_shared/consultation-notification.ts";
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -36,7 +38,7 @@ Deno.serve(async (request) => {
     const website = clean(body.website);
     const elapsedMs = Number(body.elapsedMs);
 
-    if (website || !Number.isFinite(elapsedMs) || elapsedMs < 2500) {
+    if (!acceptsSubmissionTiming(website, elapsedMs)) {
       return new Response(JSON.stringify({ error: "Unable to accept this submission." }), { status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" } });
     }
     if (!name || name.length > 100 || contact.length < 3 || contact.length > 255 ||
@@ -55,7 +57,7 @@ Deno.serve(async (request) => {
     if (!supabaseUrl || !serviceRoleKey) throw new Error("Missing backend configuration");
 
     const client = createClient(supabaseUrl, serviceRoleKey);
-    const { error } = await client.from("consultation_enquiries").insert({
+    const { data: submission, error } = await client.from("consultation_enquiries").insert({
       name,
       contact,
       preferred_contact_method: preferredContactMethod,
@@ -63,11 +65,17 @@ Deno.serve(async (request) => {
       session_preference: sessionPreference,
       message: message || null,
       consent_given: true,
-    });
+    }).select("id, created_at").single();
     if (error) throw error;
+    if (!submission) throw new Error("Enquiry was not saved");
+
+    const result = await sendTemplateEmail("consultation-notification", PRACTICE_INBOX,
+      notificationOptions({ name, contact, preferredContactMethod, serviceInterest, sessionPreference, message }, submission.id, submission.created_at));
+    requireNotificationSent(result);
 
     return new Response(JSON.stringify({ success: true }), { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } });
-  } catch {
+  } catch (error) {
+    console.error("Consultation submission failed:", error instanceof Error ? error.message : "Unknown error");
     return new Response(JSON.stringify({ error: "We could not send your enquiry. Please try again." }), { status: 500, headers: { ...corsHeaders, "Content-Type": "application/json" } });
   }
 });
