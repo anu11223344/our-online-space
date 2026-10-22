@@ -89,7 +89,7 @@ const Contact = () => {
       <section className="page-section">
         <div className="site-container grid gap-12 lg:grid-cols-[0.75fr_1.25fr] lg:gap-20">
           <div>
-            <p className="mb-3 text-sm font-semibold uppercase text-primary">Contact</p>
+            <p className="mb-3 text-sm font-semibold uppercase text-heading">Contact</p>
             <h1 className="page-title mb-6">Book a consultation</h1>
             <p className="measure text-lg text-foreground/80">After you reach out, Dr. Rajat K. Thukral will contact you to arrange a first conversation about fit and availability. There is no obligation to continue.</p>
 

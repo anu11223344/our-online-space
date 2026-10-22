@@ -19,7 +19,7 @@ const Index = () => {
         <div className="site-container py-14 md:py-20 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
             <div className="space-y-6 order-1">
-              <p className="text-healing-sage font-medium tracking-wide uppercase text-sm">
+              <p className="text-heading font-medium tracking-wide uppercase text-sm">
                 Trauma-informed, holistic psychotherapy
               </p>
                <h1 className="page-title">
@@ -65,7 +65,7 @@ const Index = () => {
 
       <section className="page-section bg-muted">
         <div className="site-container">
-          <div className="mb-10 max-w-2xl"><p className="mb-3 text-sm font-semibold uppercase text-primary">Practical information</p><h2 className="section-title">What you can expect</h2></div>
+          <div className="mb-10 max-w-2xl"><p className="mb-3 text-sm font-semibold uppercase text-heading">Practical information</p><h2 className="section-title">What you can expect</h2></div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
             {[
               { icon: Clock3, text: "Sessions run 50 minutes, available online and in person." },

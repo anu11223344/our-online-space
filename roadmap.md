@@ -14,9 +14,16 @@
 - [x] Add and verify the supplied Poetry Release poster on both workshop pages and in poster og:image.
 
 # Contact navigation
-- [x] Keep Contact as the single header destination, remove the duplicate consultation link, and verify navigation, form validation, and practice contact links on desktop/mobile; email delivery remains unverified.
+- [x] Keep Contact as the single header destination, remove the duplicate consultation link, and verify navigation, form validation, and practice contact links on desktop/mobile.
 - [x] Rename every "Book a consultation" button and link to "Contact us", remove the duplicate footer link, and verify each button resolves to the Contact page on desktop and mobile.
 
 # Instagram
 - [x] Add Instagram section to homepage linking to @innerhorizon.in (verified desktop/mobile).
 - [ ] Show live Instagram posts — blocked: needs a free SnapWidget/LightWidget embed code from the user.
+
+# Enquiry email delivery
+- [x] Send each valid enquiry to the practice inbox with visitor reply-to and IST time; show an error if sending fails.
+- [x] Allow fast/autofilled valid enquiries, deploy, and verify a live submission and sending event. Inbox/Spam placement requires the recipient’s confirmation.
+
+# Heading labels
+- [x] Make small labels above headings navy #193957; preserve white footer titles and sage header/footer.
