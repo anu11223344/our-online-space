@@ -20,3 +20,7 @@
 # Instagram
 - [x] Add Instagram section to homepage linking to @innerhorizon.in (verified desktop/mobile).
 - [ ] Show live Instagram posts — blocked: needs a free SnapWidget/LightWidget embed code from the user.
+
+# Enquiry email delivery
+- [ ] Send each valid enquiry to the practice inbox with visitor reply-to and IST time; show an error if sending fails.
+- [ ] Allow fast/autofilled valid enquiries, deploy, and verify a live submission and sending event.
