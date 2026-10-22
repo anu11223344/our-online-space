@@ -53,7 +53,7 @@ const Index = () => {
                  className="aspect-[4/5] w-full rounded-2xl object-cover object-top shadow-gentle"
               />
                <div className="mt-5 border-l-2 border-primary pl-4 text-sm leading-relaxed text-foreground/80">
-                 <p className="font-semibold text-foreground">Dr. Rajat K. Thukral</p>
+                 <p className="font-semibold text-foreground">Dr. Rajat K. Thukral, Psy. D. (USA)</p>
                  <p>Registered Clinical Psychologist</p>
                  <p>RCI Registration No. A55242</p>
                </div>
