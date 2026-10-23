@@ -33,4 +33,4 @@
 - [x] Remove "Psy. D. (USA)" from the About page heading; keep it on Home, the workshop page and the card.
 
 # Two-sided print card
-- [ ] Deliver a print-ready two-sided card: contact details on the front, QR on the back; verify both sides visually.
+- [x] Deliver a print-ready two-sided card: contact details on the front, QR on the back; both sides checked visually and the QR read back from the finished card.
