@@ -27,3 +27,10 @@
 
 # Heading labels
 - [x] Make small labels above headings navy #193957; preserve white footer titles and sage header/footer.
+
+# Name credential
+- [x] Add "Psy. D. (USA)" after the name on Home, the workshop page and the visiting card.
+- [x] Remove "Psy. D. (USA)" from the About page heading; keep it on Home, the workshop page and the card.
+
+# Two-sided print card
+- [x] Deliver a print-ready two-sided card: contact details on the front, QR on the back; both sides checked visually and the QR read back from the finished card.
