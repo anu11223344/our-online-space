@@ -16,7 +16,7 @@ const About = () => {
         <div className="mb-16 md:mb-24">
           <div className="text-center mb-10 max-w-3xl mx-auto">
             <h1 className="page-title mb-6">
-              Meet Dr. Rajat K. Thukral, Psy. D. (USA)
+              Meet Dr. Rajat K. Thukral
             </h1>
           </div>
 
