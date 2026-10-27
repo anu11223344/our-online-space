@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { SEO } from "@/components/SEO";
-import { Quote, Brain, Shield, Users, Lightbulb, Compass, Sparkles, Activity, HeartPulse, Network, Leaf } from "lucide-react";
+import { Quote, Brain, Shield, Users, Lightbulb, Compass, Sparkles, Activity, HeartPulse, Network, Leaf, Palette } from "lucide-react";
 
 const Approach = () => {
   const approaches = [
@@ -38,6 +38,11 @@ const Approach = () => {
       icon: Compass,
       title: "Culturally Sensitive & Inclusive Therapy",
       description: "Respectful incorporation of your cultural background, values, and identity intersections."
+    },
+    {
+      icon: Palette,
+      title: "Creative Approaches",
+      description: "Integrating art, movement, poetry, and sand-play therapy into the therapeutic process, so feelings can find expression in forms beyond words."
     }
   ];
 
